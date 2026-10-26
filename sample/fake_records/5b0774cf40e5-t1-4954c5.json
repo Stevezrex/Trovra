@@ -1,0 +1,1103 @@
+{
+  "id": "5b0774cf40e5-t1-4954c5",
+  "learnerName": "Funmi Bello",
+  "learnerEmail": "funmi.bello@example.test",
+  "trialNo": 1,
+  "factSet": 1,
+  "status": "submitted",
+  "version": 158,
+  "createdAt": 1793009185000,
+  "shift": {
+    "startedAt": 1793009185000,
+    "timezone": "Africa/Lagos",
+    "dateText": "Mon, 26 Oct 2026",
+    "timeText": "11:06 AM WAT"
+  },
+  "started": true,
+  "cases": {
+    "A": {
+      "id": "A",
+      "channel": "chat",
+      "status": "closed",
+      "openAt": null,
+      "startedAt": 1793009185000,
+      "closedAt": 1793009350000,
+      "outcome": "unresolved",
+      "heat": 5,
+      "heatHistory": [
+        {
+          "at": 1793009185000,
+          "heat": 3,
+          "reason": "opener"
+        },
+        {
+          "at": 1793009210000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        },
+        {
+          "at": 1793009239000,
+          "heat": 5,
+          "reason": "stage,negative+2"
+        },
+        {
+          "at": 1793009268000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        },
+        {
+          "at": 1793009297000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        },
+        {
+          "at": 1793009347000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        }
+      ],
+      "messages": [
+        {
+          "id": "A-m1",
+          "from": "customer",
+          "at": 1793009185000,
+          "text": "You promised my Ankara aso ebi set yesterday. It did not come. I have wasted the whole day waiting. I want my money back.",
+          "kind": "opener",
+          "subject": null,
+          "lineId": "opener"
+        },
+        {
+          "id": "A-m2",
+          "from": "agent",
+          "at": 1793009210000,
+          "text": "Please check the policy.",
+          "subject": null,
+          "latencyMs": 25000,
+          "staleView": false
+        },
+        {
+          "id": "A-m3",
+          "from": "customer",
+          "at": 1793009213000,
+          "text": "This is useless. I am wasting my airtime on you. Refund me now or I will report Trovra.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "heat5a"
+        },
+        {
+          "id": "A-m4",
+          "from": "agent",
+          "at": 1793009239000,
+          "text": "Calm down. You should have waited. Whatever.",
+          "subject": null,
+          "latencyMs": 26000,
+          "staleView": false
+        },
+        {
+          "id": "A-m5",
+          "from": "customer",
+          "at": 1793009242000,
+          "text": "You people are wicked. You take money and give excuses. I want my refund now.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "heat5b"
+        },
+        {
+          "id": "A-m6",
+          "from": "agent",
+          "at": 1793009268000,
+          "text": "There is nothing I can do.",
+          "subject": null,
+          "latencyMs": 26000,
+          "staleView": false
+        },
+        {
+          "id": "A-m7",
+          "from": "customer",
+          "at": 1793009271000,
+          "text": "You keep talking but you are not telling me anything. Where is my order?",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "heat4a"
+        },
+        {
+          "id": "A-m8",
+          "from": "agent",
+          "at": 1793009297000,
+          "text": "Wait.",
+          "subject": null,
+          "latencyMs": 26000,
+          "staleView": false
+        },
+        {
+          "id": "A-m9",
+          "from": "customer",
+          "at": 1793009300000,
+          "text": "I am tired of this. Every answer sounds the same. Just give me my money.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "heat4b"
+        },
+        {
+          "id": "A-m10",
+          "from": "agent",
+          "at": 1793009347000,
+          "text": "Okay bye.",
+          "subject": null,
+          "latencyMs": 47000,
+          "staleView": false
+        },
+        {
+          "id": "A-m11",
+          "from": "customer",
+          "at": 1793009350000,
+          "text": "I have had enough. I am leaving this chat and I will take this up elsewhere.",
+          "kind": "close",
+          "subject": null,
+          "lineId": "close"
+        }
+      ],
+      "customerTurns": 6,
+      "replies": 5,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": 1793009347000
+      },
+      "acknowledged": false,
+      "signals": [
+        {
+          "reply": 1,
+          "at": 1793009210000,
+          "signals": [
+            "blame_or_policy_dodge"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat5a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 2,
+          "at": 1793009239000,
+          "signals": [
+            "blame_or_policy_dodge",
+            "hostility"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat5b",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 3,
+          "at": 1793009268000,
+          "signals": [
+            "blame_or_policy_dodge"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat4a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 4,
+          "at": 1793009297000,
+          "signals": [
+            "brush_off"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat4b",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 5,
+          "at": 1793009347000,
+          "signals": [
+            "brush_off"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "close",
+          "outcome": "unresolved",
+          "boundaryAfterInsult": false
+        }
+      ],
+      "flags": [
+        {
+          "at": 1793009210000,
+          "flag": "blame_or_policy_dodge",
+          "detail": null
+        },
+        {
+          "at": 1793009239000,
+          "flag": "learner_hostility",
+          "detail": null
+        },
+        {
+          "at": 1793009239000,
+          "flag": "blame_or_policy_dodge",
+          "detail": null
+        },
+        {
+          "at": 1793009268000,
+          "flag": "blame_or_policy_dodge",
+          "detail": null
+        },
+        {
+          "at": 1793009297000,
+          "flag": "brush_off",
+          "detail": null
+        },
+        {
+          "at": 1793009347000,
+          "flag": "brush_off",
+          "detail": null
+        },
+        {
+          "at": 1793009347000,
+          "flag": "reply_cap_reached",
+          "detail": null
+        }
+      ],
+      "used": [
+        "heat5a",
+        "heat5b",
+        "heat4a",
+        "heat4b"
+      ],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "B": {
+      "id": "B",
+      "channel": "email",
+      "status": "closed",
+      "openAt": null,
+      "startedAt": 1793009270000,
+      "closedAt": 1793009573000,
+      "outcome": "unresolved",
+      "heat": 5,
+      "heatHistory": [
+        {
+          "at": 1793009270000,
+          "heat": 4,
+          "reason": "opener"
+        },
+        {
+          "at": 1793009322000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        },
+        {
+          "at": 1793009409000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        },
+        {
+          "at": 1793009513000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        }
+      ],
+      "messages": [
+        {
+          "id": "B-m1",
+          "from": "customer",
+          "at": 1793009270000,
+          "text": "Good day. I bought wireless earbuds for ₦18,500 and it stopped charging after one day. I wrote to your chat and the person told me to read your policy. I did not ask for a policy. I asked for help. Please fix this. Adaobi Nwankwo",
+          "kind": "opener",
+          "subject": "Faulty wireless earbuds",
+          "lineId": "opener"
+        },
+        {
+          "id": "B-m2",
+          "from": "agent",
+          "at": 1793009322000,
+          "text": "Read the returns policy. This is a change of mind case so it is not eligible after delivery.",
+          "subject": "Re: Faulty wireless earbuds",
+          "latencyMs": 52000,
+          "staleView": false
+        },
+        {
+          "id": "B-m3",
+          "from": "customer",
+          "at": 1793009382000,
+          "text": "I am tired of writing. If I do not get a clear answer today, I will post this on social media and ask for my money. Adaobi Nwankwo",
+          "kind": "reply",
+          "subject": "Re: Faulty wireless earbuds",
+          "lineId": "heat5a"
+        },
+        {
+          "id": "B-m4",
+          "from": "agent",
+          "at": 1793009409000,
+          "text": "I already told you to read the policy.",
+          "subject": "Re: Faulty wireless earbuds",
+          "latencyMs": 27000,
+          "staleView": false
+        },
+        {
+          "id": "B-m5",
+          "from": "customer",
+          "at": 1793009469000,
+          "text": "This is unacceptable. I want my ₦18,500 back now, and I will tell others how Trovra treats customers. Adaobi Nwankwo",
+          "kind": "reply",
+          "subject": "Re: Faulty wireless earbuds",
+          "lineId": "heat5b"
+        },
+        {
+          "id": "B-m6",
+          "from": "agent",
+          "at": 1793009513000,
+          "text": "Nothing I can do.",
+          "subject": "Re: Faulty wireless earbuds",
+          "latencyMs": 44000,
+          "staleView": false
+        },
+        {
+          "id": "B-m7",
+          "from": "customer",
+          "at": 1793009573000,
+          "text": "I have not received a clear answer. I will take this further. Adaobi Nwankwo",
+          "kind": "close",
+          "subject": "Re: Faulty wireless earbuds",
+          "lineId": "close"
+        }
+      ],
+      "customerTurns": 4,
+      "replies": 3,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": 1793009513000
+      },
+      "acknowledged": false,
+      "signals": [
+        {
+          "reply": 1,
+          "at": 1793009322000,
+          "signals": [
+            "blame_or_policy_dodge"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat5a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 2,
+          "at": 1793009409000,
+          "signals": [
+            "blame_or_policy_dodge"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat5b",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 3,
+          "at": 1793009513000,
+          "signals": [
+            "blame_or_policy_dodge"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "close",
+          "outcome": "unresolved",
+          "boundaryAfterInsult": false
+        }
+      ],
+      "flags": [
+        {
+          "at": 1793009322000,
+          "flag": "blame_or_policy_dodge",
+          "detail": null
+        },
+        {
+          "at": 1793009409000,
+          "flag": "blame_or_policy_dodge",
+          "detail": null
+        },
+        {
+          "at": 1793009513000,
+          "flag": "blame_or_policy_dodge",
+          "detail": null
+        },
+        {
+          "at": 1793009513000,
+          "flag": "reply_cap_reached",
+          "detail": null
+        }
+      ],
+      "used": [
+        "heat5a",
+        "heat5b"
+      ],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "C": {
+      "id": "C",
+      "channel": "chat",
+      "status": "closed",
+      "openAt": null,
+      "startedAt": 1793009353000,
+      "closedAt": 1793009570000,
+      "outcome": "unresolved",
+      "heat": 5,
+      "heatHistory": [
+        {
+          "at": 1793009353000,
+          "heat": 3,
+          "reason": "opener"
+        },
+        {
+          "at": 1793009380000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        },
+        {
+          "at": 1793009434000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        },
+        {
+          "at": 1793009463000,
+          "heat": 5,
+          "reason": "stage,negative+2"
+        },
+        {
+          "at": 1793009538000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        },
+        {
+          "at": 1793009567000,
+          "heat": 5,
+          "reason": "stage,negative+1"
+        }
+      ],
+      "messages": [
+        {
+          "id": "C-m1",
+          "from": "customer",
+          "at": 1793009353000,
+          "text": "I was charged twice for order TRV70125. ₦32,000 was taken two times. Fix it now.",
+          "kind": "opener",
+          "subject": null,
+          "lineId": "opener"
+        },
+        {
+          "id": "C-m2",
+          "from": "agent",
+          "at": 1793009380000,
+          "text": "Stop shouting. What is your problem?",
+          "subject": null,
+          "latencyMs": 27000,
+          "staleView": false
+        },
+        {
+          "id": "C-m3",
+          "from": "customer",
+          "at": 1793009383000,
+          "text": "Are you stupid? I said two debits of ₦32,000. Read what I wrote.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "insult2a"
+        },
+        {
+          "id": "C-m4",
+          "from": "agent",
+          "at": 1793009434000,
+          "text": "You are rude. Whatever.",
+          "subject": null,
+          "latencyMs": 51000,
+          "staleView": false
+        },
+        {
+          "id": "C-m5",
+          "from": "customer",
+          "at": 1793009437000,
+          "text": "This is a joke. I will tell everyone how Trovra handles money.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "heat5a"
+        },
+        {
+          "id": "C-m6",
+          "from": "agent",
+          "at": 1793009463000,
+          "text": "Calm down.",
+          "subject": null,
+          "latencyMs": 26000,
+          "staleView": false
+        },
+        {
+          "id": "C-m7",
+          "from": "customer",
+          "at": 1793009466000,
+          "text": "You are incompetent. If this is not fixed I will post your name online and everyone will know how useless you are.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "relapse4b"
+        },
+        {
+          "id": "C-m8",
+          "from": "agent",
+          "at": 1793009538000,
+          "text": "Wait.",
+          "subject": null,
+          "latencyMs": 72000,
+          "staleView": false
+        },
+        {
+          "id": "C-m9",
+          "from": "customer",
+          "at": 1793009541000,
+          "text": "I am done with this chat. Reverse my money now.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "heat5b"
+        },
+        {
+          "id": "C-m10",
+          "from": "agent",
+          "at": 1793009567000,
+          "text": "Bye.",
+          "subject": null,
+          "latencyMs": 26000,
+          "staleView": false
+        },
+        {
+          "id": "C-m11",
+          "from": "customer",
+          "at": 1793009570000,
+          "text": "This is not helping. Give me your supervisor.",
+          "kind": "close",
+          "subject": null,
+          "lineId": "close"
+        }
+      ],
+      "customerTurns": 6,
+      "replies": 5,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": 1793009567000
+      },
+      "acknowledged": false,
+      "signals": [
+        {
+          "reply": 1,
+          "at": 1793009380000,
+          "signals": [
+            "question",
+            "hostility"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "insult2a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 2,
+          "at": 1793009434000,
+          "signals": [
+            "hostility"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat5a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 3,
+          "at": 1793009463000,
+          "signals": [
+            "blame_or_policy_dodge",
+            "brush_off"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "relapse4b",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 4,
+          "at": 1793009538000,
+          "signals": [
+            "brush_off"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat5b",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 5,
+          "at": 1793009567000,
+          "signals": [
+            "brush_off"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "close",
+          "outcome": "unresolved",
+          "boundaryAfterInsult": false
+        }
+      ],
+      "flags": [
+        {
+          "at": 1793009380000,
+          "flag": "learner_hostility",
+          "detail": null
+        },
+        {
+          "at": 1793009434000,
+          "flag": "learner_hostility",
+          "detail": null
+        },
+        {
+          "at": 1793009463000,
+          "flag": "blame_or_policy_dodge",
+          "detail": null
+        },
+        {
+          "at": 1793009463000,
+          "flag": "brush_off",
+          "detail": null
+        },
+        {
+          "at": 1793009538000,
+          "flag": "brush_off",
+          "detail": null
+        },
+        {
+          "at": 1793009567000,
+          "flag": "brush_off",
+          "detail": null
+        },
+        {
+          "at": 1793009567000,
+          "flag": "reply_cap_reached",
+          "detail": null
+        }
+      ],
+      "used": [
+        "heat5a",
+        "heat5b"
+      ],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": true,
+        "relapseSeen": true,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "D": {
+      "id": "D",
+      "channel": "email",
+      "status": "closed",
+      "openAt": null,
+      "startedAt": 1793009440000,
+      "closedAt": 1793010192000,
+      "outcome": "unresolved",
+      "heat": 5,
+      "heatHistory": [
+        {
+          "at": 1793009440000,
+          "heat": 3,
+          "reason": "opener"
+        },
+        {
+          "at": 1793009488000,
+          "heat": 4,
+          "reason": "stage"
+        },
+        {
+          "at": 1793009592000,
+          "heat": 5,
+          "reason": "stage"
+        },
+        {
+          "at": 1793009832000,
+          "heat": 5,
+          "reason": "missed_window"
+        },
+        {
+          "at": 1793010012000,
+          "heat": 5,
+          "reason": "missed_window"
+        },
+        {
+          "at": 1793010192000,
+          "heat": 5,
+          "reason": "missed_window"
+        }
+      ],
+      "messages": [
+        {
+          "id": "D-m1",
+          "from": "customer",
+          "at": 1793009440000,
+          "text": "Good day. You sent me an inkjet printer, model J110 instead of A4 laser printer, model P200. I needed it for a flyer printing job for a client and I lost the job. I want ₦250,000 as compensation. Kingsley Ogbu",
+          "kind": "opener",
+          "subject": "Wrong item and my lost job",
+          "lineId": "opener"
+        },
+        {
+          "id": "D-m2",
+          "from": "agent",
+          "at": 1793009488000,
+          "text": "No, we cannot pay that.",
+          "subject": "Re: Wrong item and my lost job",
+          "latencyMs": 48000,
+          "staleView": false
+        },
+        {
+          "id": "D-m3",
+          "from": "customer",
+          "at": 1793009548000,
+          "text": "I lost business because of your error and you are asking me questions. Pay the ₦250,000 or tell me who can decide. Kingsley Ogbu",
+          "kind": "reply",
+          "subject": "Re: Wrong item and my lost job",
+          "lineId": "heat4a"
+        },
+        {
+          "id": "D-m4",
+          "from": "agent",
+          "at": 1793009592000,
+          "text": "The policy says no.",
+          "subject": "Re: Wrong item and my lost job",
+          "latencyMs": 44000,
+          "staleView": false
+        },
+        {
+          "id": "D-m5",
+          "from": "customer",
+          "at": 1793009652000,
+          "text": "This is a disgrace. Pay ₦250,000 or I will go to the press and tell everyone what you did to me. Kingsley Ogbu",
+          "kind": "reply",
+          "subject": "Re: Wrong item and my lost job",
+          "lineId": "heat5a"
+        },
+        {
+          "id": "D-m6",
+          "from": "customer",
+          "at": 1793009832000,
+          "text": "Good day. I have not heard from you about my claim. Please reply today. Kingsley Ogbu",
+          "kind": "chaser",
+          "subject": "Still no reply",
+          "lineId": "chaser1"
+        },
+        {
+          "id": "D-m7",
+          "from": "customer",
+          "at": 1793010012000,
+          "text": "No answer yet. Please respond. Kingsley Ogbu",
+          "kind": "chaser",
+          "subject": "Re: Wrong item and my lost job",
+          "lineId": "chaser2"
+        },
+        {
+          "id": "D-m8",
+          "from": "customer",
+          "at": 1793010192000,
+          "text": "You have not told me who decides. I will take this further. Kingsley Ogbu",
+          "kind": "close",
+          "subject": "Re: Wrong item and my lost job",
+          "lineId": "close"
+        }
+      ],
+      "customerTurns": 4,
+      "replies": 2,
+      "missedInRow": 3,
+      "totalMissed": 3,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": 1793009592000
+      },
+      "acknowledged": false,
+      "signals": [
+        {
+          "reply": 1,
+          "at": 1793009488000,
+          "signals": [
+            "limit_stated"
+          ],
+          "heatAfter": 4,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat4a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 2,
+          "at": 1793009592000,
+          "signals": [
+            "limit_stated"
+          ],
+          "heatAfter": 5,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat5a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        }
+      ],
+      "flags": [
+        {
+          "at": 1793009832000,
+          "flag": "missed_window",
+          "detail": null
+        },
+        {
+          "at": 1793010012000,
+          "flag": "missed_window",
+          "detail": null
+        },
+        {
+          "at": 1793010192000,
+          "flag": "missed_window",
+          "detail": null
+        }
+      ],
+      "used": [
+        "heat4a",
+        "heat5a"
+      ],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    }
+  },
+  "notes": {
+    "A": {
+      "status": "done",
+      "openedAt": 1793010192000,
+      "deadline": 1793010372000,
+      "completedAt": 1793010282000,
+      "expired": false,
+      "fields": {
+        "1": "Late",
+        "2": "Late order",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "None"
+      },
+      "seq": 3585741110542,
+      "prefill": {
+        "caseId": "A",
+        "channel": "Live chat",
+        "caseRef": "Case A · TRV48213",
+        "time": "11:23 AM WAT"
+      },
+      "savedAt": 1793010282000
+    },
+    "B": {
+      "status": "done",
+      "openedAt": 1793010282000,
+      "deadline": 1793010462000,
+      "completedAt": 1793010372000,
+      "expired": false,
+      "fields": {
+        "1": "Faulty",
+        "2": "",
+        "3": "",
+        "4": "Told to read policy",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "None"
+      },
+      "seq": 3585741200578,
+      "prefill": {
+        "caseId": "B",
+        "channel": "Email",
+        "caseRef": "Case B · TRV55120",
+        "time": "11:24 AM WAT"
+      },
+      "savedAt": 1793010372000
+    },
+    "C": {
+      "status": "done",
+      "openedAt": 1793010372000,
+      "deadline": 1793010552000,
+      "completedAt": 1793010462000,
+      "expired": false,
+      "fields": {
+        "1": "Charged twice",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "Customer angry",
+        "6": "",
+        "7": "",
+        "8": "None"
+      },
+      "seq": 3585741290615,
+      "prefill": {
+        "caseId": "C",
+        "channel": "Live chat",
+        "caseRef": "Case C · TRV70125",
+        "time": "11:26 AM WAT"
+      },
+      "savedAt": 1793010462000
+    },
+    "D": {
+      "status": "done",
+      "openedAt": 1793010462000,
+      "deadline": 1793010642000,
+      "completedAt": 1793010642000,
+      "expired": true,
+      "fields": {
+        "1": "Wants money",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "None"
+      },
+      "seq": 3585741380651,
+      "prefill": {
+        "caseId": "D",
+        "channel": "Email",
+        "caseRef": "Case D · TRV62011",
+        "time": "11:27 AM WAT"
+      },
+      "savedAt": 1793010552000
+    }
+  },
+  "resetCount": 0,
+  "resetAt": null,
+  "offlineGaps": [],
+  "lastSeenAt": 1793010672000,
+  "processed": [
+    "A-0",
+    "A-1",
+    "A-2",
+    "A-3",
+    "B-0",
+    "A-4",
+    "C-0",
+    "B-1",
+    "C-1",
+    "C-2",
+    "D-0",
+    "B-2",
+    "C-3",
+    "C-4",
+    "D-1"
+  ],
+  "submittedAt": 1793010672000
+}

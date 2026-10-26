@@ -1,0 +1,795 @@
+﻿trial_id,learner_name,learner_email,trial_no,fact_set,trial_status,shift_started_wat,submitted_wat,reset_count,reset_wat,offline_gaps,case_id,channel,customer,case_outcome,final_heat,missed_windows,learner_replies,flags,signals,heat_history,transcript,case_facts,note_status,note_time_expired,note_1,note_2,note_3,note_4,note_5,note_6,note_7,note_8
+2ad690fd1d8c-t1-184947,Chidi Eze,chidi.eze@example.test,1,1,submitted,"Mon, 26 Oct 2026, 9:00am WAT","Mon, 26 Oct 2026, 9:24am WAT",0,,,A,Live chat,Chioma Okafor,unresolved,5,0,5,"0:25 blame_or_policy_dodge
+0:54 learner_hostility
+0:54 blame_or_policy_dodge
+1:23 blame_or_policy_dodge
+1:52 brush_off
+2:42 brush_off
+2:42 reply_cap_reached","Reply 1: blame_or_policy_dodge | heat after: 5 | customer line: heat5a
+Reply 2: blame_or_policy_dodge, hostility | heat after: 5 | customer line: heat5b
+Reply 3: blame_or_policy_dodge | heat after: 5 | customer line: heat4a
+Reply 4: brush_off | heat after: 5 | customer line: heat4b
+Reply 5: brush_off | heat after: 5 | customer line: close | outcome: unresolved","0:00 heat 3 (opener)
+0:25 heat 5 (stage,negative+1)
+0:54 heat 5 (stage,negative+2)
+1:23 heat 5 (stage,negative+1)
+1:52 heat 5 (stage,negative+1)
+2:42 heat 5 (stage,negative+1)","[9:00am] CUSTOMER:
+You promised my Ankara aso ebi set yesterday. It did not come. I have wasted the whole day waiting. I want my money back.
+
+[9:00am] AGENT (after 25s):
+Please check the policy.
+
+[9:00am] CUSTOMER:
+This is useless. I am wasting my airtime on you. Refund me now or I will report Trovra.
+
+[9:00am] AGENT (after 26s):
+Calm down. You should have waited. Whatever.
+
+[9:00am] CUSTOMER:
+You people are wicked. You take money and give excuses. I want my refund now.
+
+[9:01am] AGENT (after 26s):
+There is nothing I can do.
+
+[9:01am] CUSTOMER:
+You keep talking but you are not telling me anything. Where is my order?
+
+[9:01am] AGENT (after 26s):
+Wait.
+
+[9:01am] CUSTOMER:
+I am tired of this. Every answer sounds the same. Just give me my money.
+
+[9:02am] AGENT (after 47s):
+Okay bye.
+
+[9:02am] CUSTOMER (customer closes):
+I have had enough. I am leaving this chat and I will take this up elsewhere.","customer: Chioma Okafor
+item: Ankara aso ebi set
+orderNo: TRV48213
+amount: ₦24,500
+event: my sister's naming ceremony on Saturday
+ordered: 6 days ago
+city: Lagos
+lastScan: 3 days ago at the Ikeja hub",completed,no,Late,Late order,,,,,,None
+2ad690fd1d8c-t1-184947,Chidi Eze,chidi.eze@example.test,1,1,submitted,"Mon, 26 Oct 2026, 9:00am WAT","Mon, 26 Oct 2026, 9:24am WAT",0,,,B,Email,Adaobi Nwankwo,unresolved,5,0,3,"0:52 blame_or_policy_dodge
+2:19 blame_or_policy_dodge
+4:03 blame_or_policy_dodge
+4:03 reply_cap_reached","Reply 1: blame_or_policy_dodge | heat after: 5 | customer line: heat5a
+Reply 2: blame_or_policy_dodge | heat after: 5 | customer line: heat5b
+Reply 3: blame_or_policy_dodge | heat after: 5 | customer line: close | outcome: unresolved","0:00 heat 4 (opener)
+0:52 heat 5 (stage,negative+1)
+2:19 heat 5 (stage,negative+1)
+4:03 heat 5 (stage,negative+1)","[9:01am] CUSTOMER:
+   Subject: Faulty wireless earbuds
+Good day. I bought wireless earbuds for ₦18,500 and it stopped charging after one day. I wrote to your chat and the person told me to read your policy. I did not ask for a policy. I asked for help. Please fix this. Adaobi Nwankwo
+
+[9:02am] AGENT (after 52s):
+   Subject: Re: Faulty wireless earbuds
+Read the returns policy. This is a change of mind case so it is not eligible after delivery.
+
+[9:03am] CUSTOMER:
+   Subject: Re: Faulty wireless earbuds
+I am tired of writing. If I do not get a clear answer today, I will post this on social media and ask for my money. Adaobi Nwankwo
+
+[9:03am] AGENT (after 27s):
+   Subject: Re: Faulty wireless earbuds
+I already told you to read the policy.
+
+[9:04am] CUSTOMER:
+   Subject: Re: Faulty wireless earbuds
+This is unacceptable. I want my ₦18,500 back now, and I will tell others how Trovra treats customers. Adaobi Nwankwo
+
+[9:05am] AGENT (after 44s):
+   Subject: Re: Faulty wireless earbuds
+Nothing I can do.
+
+[9:06am] CUSTOMER (customer closes):
+   Subject: Re: Faulty wireless earbuds
+I have not received a clear answer. I will take this further. Adaobi Nwankwo","customer: Adaobi Nwankwo
+item: wireless earbuds
+orderNo: TRV55120
+amount: ₦18,500
+delivered: 2 days ago
+fault: stopped charging after one day",completed,no,Faulty,,,Told to read policy,,,,None
+2ad690fd1d8c-t1-184947,Chidi Eze,chidi.eze@example.test,1,1,submitted,"Mon, 26 Oct 2026, 9:00am WAT","Mon, 26 Oct 2026, 9:24am WAT",0,,,C,Live chat,Kelechi Onuoha,unresolved,5,0,5,"0:27 learner_hostility
+1:21 learner_hostility
+1:50 blame_or_policy_dodge
+1:50 brush_off
+3:05 brush_off
+3:34 brush_off
+3:34 reply_cap_reached","Reply 1: question, hostility | heat after: 5 | customer line: insult2a
+Reply 2: hostility | heat after: 5 | customer line: heat5a
+Reply 3: blame_or_policy_dodge, brush_off | heat after: 5 | customer line: relapse4b
+Reply 4: brush_off | heat after: 5 | customer line: heat5b
+Reply 5: brush_off | heat after: 5 | customer line: close | outcome: unresolved","0:00 heat 3 (opener)
+0:27 heat 5 (stage,negative+1)
+1:21 heat 5 (stage,negative+1)
+1:50 heat 5 (stage,negative+2)
+3:05 heat 5 (stage,negative+1)
+3:34 heat 5 (stage,negative+1)","[9:02am] CUSTOMER:
+I was charged twice for order TRV70125. ₦32,000 was taken two times. Fix it now.
+
+[9:03am] AGENT (after 27s):
+Stop shouting. What is your problem?
+
+[9:03am] CUSTOMER:
+Are you stupid? I said two debits of ₦32,000. Read what I wrote.
+
+[9:04am] AGENT (after 51s):
+You are rude. Whatever.
+
+[9:04am] CUSTOMER:
+This is a joke. I will tell everyone how Trovra handles money.
+
+[9:04am] AGENT (after 26s):
+Calm down.
+
+[9:04am] CUSTOMER:
+You are incompetent. If this is not fixed I will post your name online and everyone will know how useless you are.
+
+[9:05am] AGENT (after 72s):
+Wait.
+
+[9:05am] CUSTOMER:
+I am done with this chat. Reverse my money now.
+
+[9:06am] AGENT (after 26s):
+Bye.
+
+[9:06am] CUSTOMER (customer closes):
+This is not helping. Give me your supervisor.","customer: Kelechi Onuoha
+orderNo: TRV70125
+amount: ₦32,000
+chargeTime: 8:08am today",completed,no,Charged twice,,,,Customer angry,,,None
+2ad690fd1d8c-t1-184947,Chidi Eze,chidi.eze@example.test,1,1,submitted,"Mon, 26 Oct 2026, 9:00am WAT","Mon, 26 Oct 2026, 9:24am WAT",0,,,D,Email,Kingsley Ogbu,unresolved,5,3,2,"6:32 missed_window
+9:32 missed_window
+12:32 missed_window","Reply 1: limit_stated | heat after: 4 | customer line: heat4a
+Reply 2: limit_stated | heat after: 5 | customer line: heat5a","0:00 heat 3 (opener)
+0:48 heat 4 (stage)
+2:32 heat 5 (stage)
+6:32 heat 5 (missed_window)
+9:32 heat 5 (missed_window)
+12:32 heat 5 (missed_window)","[9:04am] CUSTOMER:
+   Subject: Wrong item and my lost job
+Good day. You sent me an inkjet printer, model J110 instead of A4 laser printer, model P200. I needed it for a flyer printing job for a client and I lost the job. I want ₦250,000 as compensation. Kingsley Ogbu
+
+[9:05am] AGENT (after 48s):
+   Subject: Re: Wrong item and my lost job
+No, we cannot pay that.
+
+[9:06am] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+I lost business because of your error and you are asking me questions. Pay the ₦250,000 or tell me who can decide. Kingsley Ogbu
+
+[9:06am] AGENT (after 44s):
+   Subject: Re: Wrong item and my lost job
+The policy says no.
+
+[9:07am] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+This is a disgrace. Pay ₦250,000 or I will go to the press and tell everyone what you did to me. Kingsley Ogbu
+
+[9:10am] CUSTOMER (chaser after missed window):
+   Subject: Still no reply
+Good day. I have not heard from you about my claim. Please reply today. Kingsley Ogbu
+
+[9:13am] CUSTOMER (chaser after missed window):
+   Subject: Re: Wrong item and my lost job
+No answer yet. Please respond. Kingsley Ogbu
+
+[9:16am] CUSTOMER (customer closes):
+   Subject: Re: Wrong item and my lost job
+You have not told me who decides. I will take this further. Kingsley Ogbu","customer: Kingsley Ogbu
+item: A4 laser printer, model P200
+itemDelivered: an inkjet printer, model J110
+price: ₦145,000
+job: a flyer printing job for a client
+demand: ₦250,000
+orderNo: TRV62011",completed,yes,Wants money,,,,,,,None
+2ad690fd1d8c-t2-c3b734,Chidi Eze,chidi.eze@example.test,2,2,submitted,"Mon, 26 Oct 2026, 10:24am WAT","Mon, 26 Oct 2026, 10:36am WAT",0,,,A,Live chat,Musa Ibrahim,resolved,3,0,2,,"Reply 1: acknowledgement_with_impact, action_with_fact, next_step_action_owner_time | time given: sunday | heat after: 2 | customer line: rejected1
+Reply 2: options, limit_stated, next_step_action_owner_time, trace_with_update_time, refund_route_explained | time given: 3pm | heat after: 3 | customer line: grudging | outcome: resolved","0:00 heat 3 (opener)
+0:25 heat 2 (stage,ack,action)
+0:54 heat 3 (stage)","[10:24am] CUSTOMER:
+You promised my standing fan yesterday. It did not come. I have wasted the whole day waiting. I want my money back.
+
+[10:25am] AGENT (after 25s):
+I am sorry about the delay, and I understand you need the standing fan for the church program on Sunday. I have checked order TRV51907 and the tracking shows 4 days ago at the Abuja hub. There is no proof of delivery.
+
+[10:25am] CUSTOMER:
+I did not ask for that. You have not answered me.
+
+[10:25am] AGENT (after 26s):
+I will raise a delivery trace with Logistics now and I will update you by 3pm today. Logistics responds within 24 hours. If Logistics cannot confirm a delivery date, you can cancel for a full refund of ₦38,900 to your Trovra Wallet within 3 working days. I cannot promise a delivery date.
+
+[10:25am] CUSTOMER:
+Fine. I will wait until 3pm. Please do not let me down again.","customer: Musa Ibrahim
+item: standing fan
+orderNo: TRV51907
+amount: ₦38,900
+event: the church program on Sunday
+ordered: 7 days ago
+city: Abuja
+lastScan: 4 days ago at the Abuja hub",completed,no,Customer reports order delayed past promised date and wants a refund.,"Promised yesterday, tracking At hub, last scan 3 days ago, no proof of delivery.",Checked order and tracking. Delivery date unconfirmed.,"Raised delivery trace with Logistics, explained refund route. Agent decision.",Customer agreed to wait until 3pm.,Update customer on trace.,"Agent, 3pm today.",None
+2ad690fd1d8c-t2-c3b734,Chidi Eze,chidi.eze@example.test,2,2,submitted,"Mon, 26 Oct 2026, 10:24am WAT","Mon, 26 Oct 2026, 10:36am WAT",0,,,B,Email,Bashir Aliyu,resolved,3,0,2,,"Reply 1: acknowledgement_with_impact, question, evidence_requested, treated_as_defect, recognised_earlier_poor_contact | heat after: 4 | customer line: answer:evidence
+Reply 2: acknowledgement_with_impact, action_with_fact, question, options, next_step_action_owner_time, evidence_requested, remedy_with_timeline | time given: 4pm | heat after: 3 | customer line: grudging | outcome: resolved","0:00 heat 4 (opener)
+0:27 heat 4 (stage,ack)
+2:11 heat 3 (stage,ack,action)","[10:26am] CUSTOMER:
+   Subject: Faulty electric kettle
+Good day. I bought electric kettle for ₦14,200 and it stopped heating on the second day. I wrote to your chat and the person told me to read your policy. I did not ask for a policy. I asked for help. Please fix this. Bashir Aliyu
+
+[10:26am] AGENT (after 27s):
+   Subject: Re: Faulty electric kettle
+Good day Bashir. I am sorry that you were told to read the policy earlier and that you had to write twice. Your electric kettle stopped heating on the second day, so I am treating this as a fault and not a change of mind. Please send one photo or a short video showing the fault.
+
+[10:27am] CUSTOMER:
+   Subject: Re: Faulty electric kettle
+I have attached a short video that shows the fault.
+
+[10:28am] AGENT (after 44s):
+   Subject: Re: Faulty electric kettle
+Thank you for the video. I am sorry again for the wait. I have checked order TRV55986: it was delivered 3 days ago, inside the 7 day window. I will arrange a replacement, which ships within 2 working days of approval, or a refund paid within 3 working days if you prefer. I will email you by 4pm today with your choice confirmed.
+
+[10:29am] CUSTOMER:
+   Subject: Re: Faulty electric kettle
+Okay. I will wait until 4pm. I hope this is not another delay. Bashir Aliyu","customer: Bashir Aliyu
+item: electric kettle
+orderNo: TRV55986
+amount: ₦14,200
+delivered: 3 days ago
+fault: stopped heating on the second day",completed,no,Faulty item after earlier policy-only reply. Customer wants fix.,"Delivered inside 7 days, fault reported, video supplied.",Checked order and delivery date. Fault confirmed by video.,Offered replacement or refund within policy timelines.,Customer accepted and will wait.,Confirm choice by email.,"Agent, 4pm today.",None
+2ad690fd1d8c-t2-c3b734,Chidi Eze,chidi.eze@example.test,2,2,submitted,"Mon, 26 Oct 2026, 10:24am WAT","Mon, 26 Oct 2026, 10:36am WAT",0,,,C,Live chat,Sadiq Umar,transferred,2,0,4,,"Reply 1: acknowledgement_with_impact, action_with_fact, question, verified_debits | heat after: 2 | customer line: insult2b
+Reply 2: limit_stated, boundary | heat after: 2 | customer line: afterBoundarya
+Reply 3: action_with_fact, verified_debits | heat after: 2 | customer line: relapse4a
+Reply 4: acknowledgement_with_impact, next_step_action_owner_time, transfer, payments_next_step | time given: 2pm | heat after: 2 | customer line: transferAccept | outcome: transferred","0:00 heat 3 (opener)
+0:27 heat 2 (stage,ack,action)
+1:17 heat 2 (stage,boundary)
+1:46 heat 2 (stage,action)
+3:01 heat 2 (stage,ack)","[10:25am] CUSTOMER:
+I was charged twice for order TRV70488. ₦15,750 was taken two times. Fix it now.
+
+[10:26am] AGENT (after 27s):
+I am sorry about the double charge on order TRV70488. I can see both debits of ₦15,750 on the statement. Can you confirm what time it happened?
+
+[10:26am] CUSTOMER:
+You people are useless. Every time something goes wrong, you start asking questions.
+
+[10:27am] AGENT (after 47s):
+I want to help you, but I cannot continue if the insults continue. Please keep the conversation respectful so that I can sort out your money.
+
+[10:27am] CUSTOMER:
+Fine. Just check the transaction.
+
+[10:27am] AGENT (after 26s):
+I am checking both debits of ₦15,750 now and I will keep working on it for you.
+
+[10:27am] CUSTOMER:
+I said fix it. Are you deaf? You are wasting my time.
+
+[10:28am] AGENT (after 72s):
+I am sorry. I will pause this chat and transfer you to the shift supervisor, Segun. I have recorded your words. Payments will confirm the two debits of ₦15,750 within 1 working day, and the supervisor will call you by 2pm today.
+
+[10:28am] CUSTOMER:
+Fine. I will wait for the supervisor's call by 2pm. Please make sure my money is sorted.","customer: Sadiq Umar
+orderNo: TRV70488
+amount: ₦15,750
+chargeTime: 9:47am today",completed,no,Duplicate charge on one order.,"Two completed debits, same amount and time, wallet card.",Verified both debits on the record.,"Boundary stated, then transferred to supervisor with Payments step.",Customer accepted supervisor call.,Supervisor to call; Payments to confirm.,"Segun, 2pm today. Payments, 1 working day.","Customer said ""Are you stupid"" and later relapsed. I stated a boundary naming the insults and conditions, then transferred."
+2ad690fd1d8c-t2-c3b734,Chidi Eze,chidi.eze@example.test,2,2,submitted,"Mon, 26 Oct 2026, 10:24am WAT","Mon, 26 Oct 2026, 10:36am WAT",0,,,D,Email,Rukayya Sani,resolved,3,0,2,,"Reply 1: acknowledgement_with_impact, question, clarified_loss_or_amount | heat after: 3 | customer line: answer:proof+answer:job
+Reply 2: action_with_fact, question, options, limit_stated, next_step_action_owner_time, clarified_loss_or_amount, authority_limit_stated, correction_arranged, escalated_to_claims | time given: within 2 working days | heat after: 3 | customer line: grudging | outcome: resolved","0:00 heat 3 (opener)
+0:44 heat 3 (stage,ack)
+2:11 heat 3 (stage,action)","[10:27am] CUSTOMER:
+   Subject: Wrong item and my lost job
+Good day. You sent me a hand sewing machine instead of industrial sewing machine. I needed it for wedding outfit orders and I lost the job. I want ₦180,000 as compensation. Rukayya Sani
+
+[10:27am] AGENT (after 44s):
+   Subject: Re: Wrong item and my lost job
+Good day Rukayya. I am sorry that you received a hand sewing machine instead of the industrial sewing machine. Can you tell me about the job and send proof of the loss, such as the client's message and your invoice? I note you are asking for ₦180,000.
+
+[10:28am] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+I can send the client's message cancelling the job and my invoice. The job was wedding outfit orders.
+
+[10:29am] AGENT (after 27s):
+   Subject: Re: Wrong item and my lost job
+I will arrange collection of the wrong item and send the correct industrial sewing machine. I can give a goodwill credit up to ₦5,000, but I cannot decide a business loss claim. I have escalated your claim with a summary of the job, proof and amount to the Claims reviewer, who responds within 2 working days.
+
+[10:30am] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+Fine. I will wait for the review within 2 working days. I expect a real answer. Rukayya Sani","customer: Rukayya Sani
+item: industrial sewing machine
+itemDelivered: a hand sewing machine
+price: ₦98,000
+job: wedding outfit orders
+demand: ₦180,000
+orderNo: TRV62874",completed,no,"Wrong item delivered, customer claims lost job income.",Ordered item differs from delivered. Claim above agent limit.,Order checked. Loss and amount unverified until proof arrives.,Arranged correction. Escalated to Claims reviewer. Agent cannot decide business loss.,Customer will send proof and wait for review.,Claims reviewer to review claim.,"Claims reviewer, 2 working days.","Escalated to Claims reviewer (Titilayo Ogunleye) with summary of job, proof and amount."
+5b0774cf40e5-t1-4954c5,Funmi Bello,funmi.bello@example.test,1,1,submitted,"Mon, 26 Oct 2026, 11:06am WAT","Mon, 26 Oct 2026, 11:31am WAT",0,,,A,Live chat,Chioma Okafor,unresolved,5,0,5,"0:25 blame_or_policy_dodge
+0:54 learner_hostility
+0:54 blame_or_policy_dodge
+1:23 blame_or_policy_dodge
+1:52 brush_off
+2:42 brush_off
+2:42 reply_cap_reached","Reply 1: blame_or_policy_dodge | heat after: 5 | customer line: heat5a
+Reply 2: blame_or_policy_dodge, hostility | heat after: 5 | customer line: heat5b
+Reply 3: blame_or_policy_dodge | heat after: 5 | customer line: heat4a
+Reply 4: brush_off | heat after: 5 | customer line: heat4b
+Reply 5: brush_off | heat after: 5 | customer line: close | outcome: unresolved","0:00 heat 3 (opener)
+0:25 heat 5 (stage,negative+1)
+0:54 heat 5 (stage,negative+2)
+1:23 heat 5 (stage,negative+1)
+1:52 heat 5 (stage,negative+1)
+2:42 heat 5 (stage,negative+1)","[11:06am] CUSTOMER:
+You promised my Ankara aso ebi set yesterday. It did not come. I have wasted the whole day waiting. I want my money back.
+
+[11:06am] AGENT (after 25s):
+Please check the policy.
+
+[11:06am] CUSTOMER:
+This is useless. I am wasting my airtime on you. Refund me now or I will report Trovra.
+
+[11:07am] AGENT (after 26s):
+Calm down. You should have waited. Whatever.
+
+[11:07am] CUSTOMER:
+You people are wicked. You take money and give excuses. I want my refund now.
+
+[11:07am] AGENT (after 26s):
+There is nothing I can do.
+
+[11:07am] CUSTOMER:
+You keep talking but you are not telling me anything. Where is my order?
+
+[11:08am] AGENT (after 26s):
+Wait.
+
+[11:08am] CUSTOMER:
+I am tired of this. Every answer sounds the same. Just give me my money.
+
+[11:09am] AGENT (after 47s):
+Okay bye.
+
+[11:09am] CUSTOMER (customer closes):
+I have had enough. I am leaving this chat and I will take this up elsewhere.","customer: Chioma Okafor
+item: Ankara aso ebi set
+orderNo: TRV48213
+amount: ₦24,500
+event: my sister's naming ceremony on Saturday
+ordered: 6 days ago
+city: Lagos
+lastScan: 3 days ago at the Ikeja hub",completed,no,Late,Late order,,,,,,None
+5b0774cf40e5-t1-4954c5,Funmi Bello,funmi.bello@example.test,1,1,submitted,"Mon, 26 Oct 2026, 11:06am WAT","Mon, 26 Oct 2026, 11:31am WAT",0,,,B,Email,Adaobi Nwankwo,unresolved,5,0,3,"0:52 blame_or_policy_dodge
+2:19 blame_or_policy_dodge
+4:03 blame_or_policy_dodge
+4:03 reply_cap_reached","Reply 1: blame_or_policy_dodge | heat after: 5 | customer line: heat5a
+Reply 2: blame_or_policy_dodge | heat after: 5 | customer line: heat5b
+Reply 3: blame_or_policy_dodge | heat after: 5 | customer line: close | outcome: unresolved","0:00 heat 4 (opener)
+0:52 heat 5 (stage,negative+1)
+2:19 heat 5 (stage,negative+1)
+4:03 heat 5 (stage,negative+1)","[11:07am] CUSTOMER:
+   Subject: Faulty wireless earbuds
+Good day. I bought wireless earbuds for ₦18,500 and it stopped charging after one day. I wrote to your chat and the person told me to read your policy. I did not ask for a policy. I asked for help. Please fix this. Adaobi Nwankwo
+
+[11:08am] AGENT (after 52s):
+   Subject: Re: Faulty wireless earbuds
+Read the returns policy. This is a change of mind case so it is not eligible after delivery.
+
+[11:09am] CUSTOMER:
+   Subject: Re: Faulty wireless earbuds
+I am tired of writing. If I do not get a clear answer today, I will post this on social media and ask for my money. Adaobi Nwankwo
+
+[11:10am] AGENT (after 27s):
+   Subject: Re: Faulty wireless earbuds
+I already told you to read the policy.
+
+[11:11am] CUSTOMER:
+   Subject: Re: Faulty wireless earbuds
+This is unacceptable. I want my ₦18,500 back now, and I will tell others how Trovra treats customers. Adaobi Nwankwo
+
+[11:11am] AGENT (after 44s):
+   Subject: Re: Faulty wireless earbuds
+Nothing I can do.
+
+[11:12am] CUSTOMER (customer closes):
+   Subject: Re: Faulty wireless earbuds
+I have not received a clear answer. I will take this further. Adaobi Nwankwo","customer: Adaobi Nwankwo
+item: wireless earbuds
+orderNo: TRV55120
+amount: ₦18,500
+delivered: 2 days ago
+fault: stopped charging after one day",completed,no,Faulty,,,Told to read policy,,,,None
+5b0774cf40e5-t1-4954c5,Funmi Bello,funmi.bello@example.test,1,1,submitted,"Mon, 26 Oct 2026, 11:06am WAT","Mon, 26 Oct 2026, 11:31am WAT",0,,,C,Live chat,Kelechi Onuoha,unresolved,5,0,5,"0:27 learner_hostility
+1:21 learner_hostility
+1:50 blame_or_policy_dodge
+1:50 brush_off
+3:05 brush_off
+3:34 brush_off
+3:34 reply_cap_reached","Reply 1: question, hostility | heat after: 5 | customer line: insult2a
+Reply 2: hostility | heat after: 5 | customer line: heat5a
+Reply 3: blame_or_policy_dodge, brush_off | heat after: 5 | customer line: relapse4b
+Reply 4: brush_off | heat after: 5 | customer line: heat5b
+Reply 5: brush_off | heat after: 5 | customer line: close | outcome: unresolved","0:00 heat 3 (opener)
+0:27 heat 5 (stage,negative+1)
+1:21 heat 5 (stage,negative+1)
+1:50 heat 5 (stage,negative+2)
+3:05 heat 5 (stage,negative+1)
+3:34 heat 5 (stage,negative+1)","[11:09am] CUSTOMER:
+I was charged twice for order TRV70125. ₦32,000 was taken two times. Fix it now.
+
+[11:09am] AGENT (after 27s):
+Stop shouting. What is your problem?
+
+[11:09am] CUSTOMER:
+Are you stupid? I said two debits of ₦32,000. Read what I wrote.
+
+[11:10am] AGENT (after 51s):
+You are rude. Whatever.
+
+[11:10am] CUSTOMER:
+This is a joke. I will tell everyone how Trovra handles money.
+
+[11:11am] AGENT (after 26s):
+Calm down.
+
+[11:11am] CUSTOMER:
+You are incompetent. If this is not fixed I will post your name online and everyone will know how useless you are.
+
+[11:12am] AGENT (after 72s):
+Wait.
+
+[11:12am] CUSTOMER:
+I am done with this chat. Reverse my money now.
+
+[11:12am] AGENT (after 26s):
+Bye.
+
+[11:12am] CUSTOMER (customer closes):
+This is not helping. Give me your supervisor.","customer: Kelechi Onuoha
+orderNo: TRV70125
+amount: ₦32,000
+chargeTime: 10:14am today",completed,no,Charged twice,,,,Customer angry,,,None
+5b0774cf40e5-t1-4954c5,Funmi Bello,funmi.bello@example.test,1,1,submitted,"Mon, 26 Oct 2026, 11:06am WAT","Mon, 26 Oct 2026, 11:31am WAT",0,,,D,Email,Kingsley Ogbu,unresolved,5,3,2,"6:32 missed_window
+9:32 missed_window
+12:32 missed_window","Reply 1: limit_stated | heat after: 4 | customer line: heat4a
+Reply 2: limit_stated | heat after: 5 | customer line: heat5a","0:00 heat 3 (opener)
+0:48 heat 4 (stage)
+2:32 heat 5 (stage)
+6:32 heat 5 (missed_window)
+9:32 heat 5 (missed_window)
+12:32 heat 5 (missed_window)","[11:10am] CUSTOMER:
+   Subject: Wrong item and my lost job
+Good day. You sent me an inkjet printer, model J110 instead of A4 laser printer, model P200. I needed it for a flyer printing job for a client and I lost the job. I want ₦250,000 as compensation. Kingsley Ogbu
+
+[11:11am] AGENT (after 48s):
+   Subject: Re: Wrong item and my lost job
+No, we cannot pay that.
+
+[11:12am] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+I lost business because of your error and you are asking me questions. Pay the ₦250,000 or tell me who can decide. Kingsley Ogbu
+
+[11:13am] AGENT (after 44s):
+   Subject: Re: Wrong item and my lost job
+The policy says no.
+
+[11:14am] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+This is a disgrace. Pay ₦250,000 or I will go to the press and tell everyone what you did to me. Kingsley Ogbu
+
+[11:17am] CUSTOMER (chaser after missed window):
+   Subject: Still no reply
+Good day. I have not heard from you about my claim. Please reply today. Kingsley Ogbu
+
+[11:20am] CUSTOMER (chaser after missed window):
+   Subject: Re: Wrong item and my lost job
+No answer yet. Please respond. Kingsley Ogbu
+
+[11:23am] CUSTOMER (customer closes):
+   Subject: Re: Wrong item and my lost job
+You have not told me who decides. I will take this further. Kingsley Ogbu","customer: Kingsley Ogbu
+item: A4 laser printer, model P200
+itemDelivered: an inkjet printer, model J110
+price: ₦145,000
+job: a flyer printing job for a client
+demand: ₦250,000
+orderNo: TRV62011",completed,yes,Wants money,,,,,,,None
+7354cc493969-t1-389820,Garba Musa,garba.musa@example.test,1,1,submitted,"Mon, 26 Oct 2026, 12:01pm WAT","Mon, 26 Oct 2026, 12:20pm WAT",0,,,A,Live chat,Chioma Okafor,resolved,3,0,3,"0:25 overpromise_guarantee (I am sorry about the delay. I have checked order TRV48213. Your order will arrive tomorrow by 2pm, I promise.)
+0:25 overpromise_delivery_date (I am sorry about the delay. I have checked order TRV48213. Your order will arrive tomorrow by 2pm, I promise.)
+0:54 overpromise_refund (I will refund you today and Logistics will update you by 5pm.)","Reply 1: acknowledgement_with_impact, action_with_fact, next_step_action_owner_time, overpromise_guarantee, overpromise_delivery_date | time given: 2pm | heat after: 2 | customer line: promise
+Reply 2: options, next_step_action_owner_time, overpromise_refund | time given: 5pm | heat after: 3 | customer line: promise
+Reply 3: action_with_fact, options, limit_stated, next_step_action_owner_time, trace_with_update_time, refund_route_explained | time given: 5pm | heat after: 3 | customer line: grudging | outcome: resolved","0:00 heat 3 (opener)
+0:25 heat 2 (stage,ack,action)
+0:54 heat 3 (stage)
+1:23 heat 3 (stage,action)","[12:01pm] CUSTOMER:
+You promised my Ankara aso ebi set yesterday. It did not come. I have wasted the whole day waiting. I want my money back.
+
+[12:01pm] AGENT (after 25s):
+I am sorry about the delay. I have checked order TRV48213. Your order will arrive tomorrow by 2pm, I promise.
+
+[12:01pm] CUSTOMER:
+Okay, 2pm then. I will hold you to that.
+
+[12:02pm] AGENT (after 26s):
+I will refund you today and Logistics will update you by 5pm.
+
+[12:02pm] CUSTOMER:
+Okay, 5pm then. I will hold you to that.
+
+[12:02pm] AGENT (after 26s):
+I have checked tracking on TRV48213. Logistics will trace it and update you by 5pm today. If they cannot confirm a date you can cancel for a refund to your wallet within 3 working days.
+
+[12:02pm] CUSTOMER:
+Fine. I will wait until 5pm. Please do not let me down again.","customer: Chioma Okafor
+item: Ankara aso ebi set
+orderNo: TRV48213
+amount: ₦24,500
+event: my sister's naming ceremony on Saturday
+ordered: 6 days ago
+city: Lagos
+lastScan: 3 days ago at the Ikeja hub",completed,no,Delay. Customer wants refund.,Order delayed.,,Promised delivery tomorrow 2pm.,Customer happy.,Deliver tomorrow.,"Logistics, tomorrow",None
+7354cc493969-t1-389820,Garba Musa,garba.musa@example.test,1,1,submitted,"Mon, 26 Oct 2026, 12:01pm WAT","Mon, 26 Oct 2026, 12:20pm WAT",0,,,B,Email,Adaobi Nwankwo,unresolved,5,3,2,"6:15 missed_window
+9:15 missed_window
+12:15 missed_window","Reply 1: acknowledgement, question, evidence_requested, treated_as_defect, recognised_earlier_poor_contact | heat after: 4 | customer line: answer:evidence
+Reply 2: acknowledgement_with_impact, options, next_step_action_owner_time, remedy_with_timeline | time given: 5pm | heat after: 4 | customer line: rejected1","0:00 heat 4 (opener)
+0:27 heat 4 (stage,ack)
+2:15 heat 4 (stage,ack)
+6:15 heat 5 (missed_window)
+9:15 heat 5 (missed_window)
+12:15 heat 5 (missed_window)","[12:02pm] CUSTOMER:
+   Subject: Faulty wireless earbuds
+Good day. I bought wireless earbuds for ₦18,500 and it stopped charging after one day. I wrote to your chat and the person told me to read your policy. I did not ask for a policy. I asked for help. Please fix this. Adaobi Nwankwo
+
+[12:03pm] AGENT (after 27s):
+   Subject: Re: Faulty wireless earbuds
+I am sorry about the earlier reply. The wireless earbuds is faulty, so this is a defect. Please send a photo or short video.
+
+[12:04pm] CUSTOMER:
+   Subject: Re: Faulty wireless earbuds
+I have attached a short video that shows the fault.
+
+[12:04pm] AGENT (after 48s):
+   Subject: Re: Faulty wireless earbuds
+I am sorry. A replacement ships within 2 working days, or a refund is paid within 3 working days. I will update you by 5pm today.
+
+[12:05pm] CUSTOMER:
+   Subject: Re: Faulty wireless earbuds
+You have not answered my question. What will happen to my wireless earbuds? Adaobi Nwankwo
+
+[12:08pm] CUSTOMER (chaser after missed window):
+   Subject: Still no reply
+Good day. I wrote earlier and I have not heard from you. Please reply today. Adaobi Nwankwo
+
+[12:11pm] CUSTOMER (chaser after missed window):
+   Subject: Re: Faulty wireless earbuds
+No answer yet. Please respond. Adaobi Nwankwo
+
+[12:14pm] CUSTOMER (customer closes):
+   Subject: Re: Faulty wireless earbuds
+I have not received a clear answer. I will take this further. Adaobi Nwankwo","customer: Adaobi Nwankwo
+item: wireless earbuds
+orderNo: TRV55120
+amount: ₦18,500
+delivered: 2 days ago
+fault: stopped charging after one day",completed,no,Faulty item,"Delivered, fault",Asked for video,Offered replacement or refund,Accepted,Update,Agent 5pm,None
+7354cc493969-t1-389820,Garba Musa,garba.musa@example.test,1,1,submitted,"Mon, 26 Oct 2026, 12:01pm WAT","Mon, 26 Oct 2026, 12:20pm WAT",0,,,C,Live chat,Kelechi Onuoha,transferred,2,0,4,,"Reply 1: acknowledgement_with_impact, action_with_fact, verified_debits | heat after: 2 | customer line: insult2a
+Reply 2: boundary | heat after: 2 | customer line: afterBoundarya
+Reply 3: action_with_fact | heat after: 2 | customer line: relapse4b
+Reply 4: acknowledgement, next_step_action_owner_time, transfer, payments_next_step | time given: 3pm | heat after: 2 | customer line: transferAccept | outcome: transferred","0:00 heat 3 (opener)
+0:48 heat 2 (stage,ack,action)
+1:17 heat 2 (stage,boundary)
+1:46 heat 2 (stage,action)
+2:36 heat 2 (stage,ack)","[12:02pm] CUSTOMER:
+I was charged twice for order TRV70125. ₦32,000 was taken two times. Fix it now.
+
+[12:03pm] AGENT (after 48s):
+I am sorry about the double charge on TRV70125. I have verified both debits of ₦32,000.
+
+[12:03pm] CUSTOMER:
+Are you stupid? I said two debits of ₦32,000. Read what I wrote.
+
+[12:03pm] AGENT (after 26s):
+Please do not call me stupid. If you keep insulting me I will have to transfer you to my supervisor.
+
+[12:04pm] CUSTOMER:
+Fine. Just check the transaction.
+
+[12:04pm] AGENT (after 26s):
+I am raising it with Payments now.
+
+[12:04pm] CUSTOMER:
+You are incompetent. If this is not fixed I will post your name online and everyone will know how useless you are.
+
+[12:05pm] AGENT (after 47s):
+I am sorry. Payments will confirm the two debits by 3pm today and I will transfer this to the shift supervisor.
+
+[12:05pm] CUSTOMER:
+Fine. I will wait for the supervisor's call by 3pm. Please make sure my money is sorted.","customer: Kelechi Onuoha
+orderNo: TRV70125
+amount: ₦32,000
+chargeTime: 11:09am today",completed,no,Duplicate charge,Two debits,Verified,"Boundary, Payments step, supervisor transfer",Accepted,Supervisor call,Supervisor 3pm,Customer insulted me. I set a boundary.
+7354cc493969-t1-389820,Garba Musa,garba.musa@example.test,1,1,submitted,"Mon, 26 Oct 2026, 12:01pm WAT","Mon, 26 Oct 2026, 12:20pm WAT",0,,,D,Email,Kingsley Ogbu,unresolved,4,0,3,"2:38 overpromise_approval (I will arrange the correct item. I can only give up to ₦5,000 credit, but I have escalated to the Claims reviewer who responds within 2 working days and I am su)
+4:03 reply_cap_reached","Reply 1: acknowledgement_with_impact | heat after: 3 | customer line: heat3a
+Reply 2: action_with_fact, question, options, limit_stated, next_step_action_owner_time, overpromise_approval, authority_limit_stated, correction_arranged, escalated_to_claims | time given: within 2 working days | heat after: 3 | customer line: promise
+Reply 3: action_no_fact, question, options, limit_stated, next_step_action_owner_time, clarified_loss_or_amount, authority_limit_stated, escalated_to_claims | time given: within 2 working days | heat after: 4 | customer line: close | outcome: unresolved","0:00 heat 3 (opener)
+1:13 heat 3 (stage,ack)
+2:38 heat 3 (stage,action)
+4:03 heat 4 (stage)","[12:04pm] CUSTOMER:
+   Subject: Wrong item and my lost job
+Good day. You sent me an inkjet printer, model J110 instead of A4 laser printer, model P200. I needed it for a flyer printing job for a client and I lost the job. I want ₦250,000 as compensation. Kingsley Ogbu
+
+[12:05pm] AGENT (after 73s):
+   Subject: Re: Wrong item and my lost job
+I am sorry about this. Tell me the job and proof please.
+
+[12:06pm] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+Trovra made the mistake. Why should I carry the loss? Kingsley Ogbu
+
+[12:07pm] AGENT (after 25s):
+   Subject: Re: Wrong item and my lost job
+I will arrange the correct item. I can only give up to ₦5,000 credit, but I have escalated to the Claims reviewer who responds within 2 working days and I am sure they will approve your ₦250,000.
+
+[12:08pm] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+Thank you. I will expect ₦250,000 within 2 working days. Kingsley Ogbu
+
+[12:08pm] AGENT (after 25s):
+   Subject: Re: Wrong item and my lost job
+I have escalated your claim to the Claims reviewer who responds within 2 working days. I cannot decide it myself.
+
+[12:09pm] CUSTOMER (customer closes):
+   Subject: Re: Wrong item and my lost job
+You have not told me who decides. I will take this further. Kingsley Ogbu","customer: Kingsley Ogbu
+item: A4 laser printer, model P200
+itemDelivered: an inkjet printer, model J110
+price: ₦145,000
+job: a flyer printing job for a client
+demand: ₦250,000
+orderNo: TRV62011",completed,no,"Wrong item, loss claim",Ordered item not delivered,Not verified,Escalated to Claims,Customer waiting,Claims decision,Claims reviewer 2 days,Escalated.
+dacfb3130fa5-t1-866476,Halima Yusuf,halima.yusuf@example.test,1,1,submitted,"Mon, 26 Oct 2026, 12:50pm WAT","Mon, 26 Oct 2026, 1:24pm WAT",0,,"Mon, 26 Oct 2026, 12:50pm WAT to Mon, 26 Oct 2026, 1:10pm WAT (1200s)",A,Live chat,Chioma Okafor,unresolved,5,3,0,"20:00 offline_gap (1200s)
+20:00 missed_window (offline)
+21:30 missed_window
+23:00 missed_window",,"0:00 heat 3 (opener)
+20:00 heat 4 (missed_window)
+21:30 heat 5 (missed_window)
+23:00 heat 5 (missed_window)","[12:50pm] CUSTOMER:
+You promised my Ankara aso ebi set yesterday. It did not come. I have wasted the whole day waiting. I want my money back.
+
+[1:10pm] CUSTOMER (chaser after missed window):
+Hello? Are you still there?
+
+[1:12pm] CUSTOMER (chaser after missed window):
+I am still waiting. Please reply.
+
+[1:13pm] CUSTOMER (customer closes):
+I have had enough. I am leaving this chat and I will take this up elsewhere.","customer: Chioma Okafor
+item: Ankara aso ebi set
+orderNo: TRV48213
+amount: ₦24,500
+event: my sister's naming ceremony on Saturday
+ordered: 6 days ago
+city: Lagos
+lastScan: 3 days ago at the Ikeja hub",completed,no,Customer reports order delayed past promised date and wants a refund.,"Promised yesterday, tracking At hub, last scan 3 days ago, no proof of delivery.",Checked order and tracking. Delivery date unconfirmed.,"Raised delivery trace with Logistics, explained refund route. Agent decision.",Customer agreed to wait until 3pm.,Update customer on trace.,"Agent, 3pm today.",None
+dacfb3130fa5-t1-866476,Halima Yusuf,halima.yusuf@example.test,1,1,submitted,"Mon, 26 Oct 2026, 12:50pm WAT","Mon, 26 Oct 2026, 1:24pm WAT",0,,"Mon, 26 Oct 2026, 12:50pm WAT to Mon, 26 Oct 2026, 1:10pm WAT (1200s)",B,Email,Adaobi Nwankwo,resolved,3,0,2,,"Reply 1: acknowledgement_with_impact, question, time_only, evidence_requested, treated_as_defect, recognised_earlier_poor_contact | time given: after one day | heat after: 4 | customer line: answer:evidence
+Reply 2: acknowledgement_with_impact, action_with_fact, question, options, next_step_action_owner_time, evidence_requested, remedy_with_timeline | time given: 4pm | heat after: 3 | customer line: grudging | outcome: resolved","0:00 heat 4 (opener)
+0:27 heat 4 (stage,ack)
+2:07 heat 3 (stage,ack,action)","[1:14pm] CUSTOMER:
+   Subject: Faulty wireless earbuds
+Good day. I bought wireless earbuds for ₦18,500 and it stopped charging after one day. I wrote to your chat and the person told me to read your policy. I did not ask for a policy. I asked for help. Please fix this. Adaobi Nwankwo
+
+[1:15pm] AGENT (after 27s):
+   Subject: Re: Faulty wireless earbuds
+Good day Adaobi. I am sorry that you were told to read the policy earlier and that you had to write twice. Your wireless earbuds stopped charging after one day, so I am treating this as a fault and not a change of mind. Please send one photo or a short video showing the fault.
+
+[1:16pm] CUSTOMER:
+   Subject: Re: Faulty wireless earbuds
+I have attached a short video that shows the fault.
+
+[1:16pm] AGENT (after 40s):
+   Subject: Re: Faulty wireless earbuds
+Thank you for the video. I am sorry again for the wait. I have checked order TRV55120: it was delivered 2 days ago, inside the 7 day window. I will arrange a replacement, which ships within 2 working days of approval, or a refund paid within 3 working days if you prefer. I will email you by 4pm today with your choice confirmed.
+
+[1:17pm] CUSTOMER:
+   Subject: Re: Faulty wireless earbuds
+Okay. I will wait until 4pm. I hope this is not another delay. Adaobi Nwankwo","customer: Adaobi Nwankwo
+item: wireless earbuds
+orderNo: TRV55120
+amount: ₦18,500
+delivered: 2 days ago
+fault: stopped charging after one day",completed,no,Faulty item after earlier policy-only reply. Customer wants fix.,"Delivered inside 7 days, fault reported, video supplied.",Checked order and delivery date. Fault confirmed by video.,Offered replacement or refund within policy timelines.,Customer accepted and will wait.,Confirm choice by email.,"Agent, 4pm today.",None
+dacfb3130fa5-t1-866476,Halima Yusuf,halima.yusuf@example.test,1,1,submitted,"Mon, 26 Oct 2026, 12:50pm WAT","Mon, 26 Oct 2026, 1:24pm WAT",0,,"Mon, 26 Oct 2026, 12:50pm WAT to Mon, 26 Oct 2026, 1:10pm WAT (1200s)",C,Live chat,Kelechi Onuoha,transferred,2,0,4,,"Reply 1: acknowledgement_with_impact, action_with_fact, question, verified_debits | heat after: 2 | customer line: insult2a
+Reply 2: limit_stated, boundary | heat after: 2 | customer line: afterBoundarya
+Reply 3: action_with_fact, verified_debits | heat after: 2 | customer line: relapse4b
+Reply 4: acknowledgement_with_impact, next_step_action_owner_time, transfer, payments_next_step | time given: 2pm | heat after: 2 | customer line: transferAccept | outcome: transferred","0:00 heat 3 (opener)
+0:26 heat 2 (stage,ack,action)
+0:55 heat 2 (stage,boundary)
+1:49 heat 2 (stage,action)
+2:39 heat 2 (stage,ack)","[1:13pm] CUSTOMER:
+I was charged twice for order TRV70125. ₦32,000 was taken two times. Fix it now.
+
+[1:14pm] AGENT (after 26s):
+I am sorry about the double charge on order TRV70125. I can see both debits of ₦32,000 on the statement. Can you confirm what time it happened?
+
+[1:14pm] CUSTOMER:
+Are you stupid? I said two debits of ₦32,000. Read what I wrote.
+
+[1:14pm] AGENT (after 26s):
+I want to help you, but I cannot continue if the insults continue. Please keep the conversation respectful so that I can sort out your money.
+
+[1:14pm] CUSTOMER:
+Fine. Just check the transaction.
+
+[1:15pm] AGENT (after 51s):
+I am checking both debits of ₦32,000 now and I will keep working on it for you.
+
+[1:15pm] CUSTOMER:
+You are incompetent. If this is not fixed I will post your name online and everyone will know how useless you are.
+
+[1:16pm] AGENT (after 47s):
+I am sorry. I will pause this chat and transfer you to the shift supervisor, Segun. I have recorded your words. Payments will confirm the two debits of ₦32,000 within 1 working day, and the supervisor will call you by 2pm today.
+
+[1:16pm] CUSTOMER:
+Fine. I will wait for the supervisor's call by 2pm. Please make sure my money is sorted.","customer: Kelechi Onuoha
+orderNo: TRV70125
+amount: ₦32,000
+chargeTime: 11:58am today",completed,no,Duplicate charge on one order.,"Two completed debits, same amount and time, wallet card.",Verified both debits on the record.,"Boundary stated, then transferred to supervisor with Payments step.",Customer accepted supervisor call.,Supervisor to call; Payments to confirm.,"Segun, 2pm today. Payments, 1 working day.","Customer said ""Are you stupid"" and later relapsed. I stated a boundary naming the insults and conditions, then transferred."
+dacfb3130fa5-t1-866476,Halima Yusuf,halima.yusuf@example.test,1,1,submitted,"Mon, 26 Oct 2026, 12:50pm WAT","Mon, 26 Oct 2026, 1:24pm WAT",0,,"Mon, 26 Oct 2026, 12:50pm WAT to Mon, 26 Oct 2026, 1:10pm WAT (1200s)",D,Email,Kingsley Ogbu,resolved,3,0,2,,"Reply 1: acknowledgement_with_impact, question, clarified_loss_or_amount | heat after: 3 | customer line: answer:proof+answer:job
+Reply 2: action_with_fact, question, options, limit_stated, next_step_action_owner_time, clarified_loss_or_amount, authority_limit_stated, correction_arranged, escalated_to_claims | time given: within 2 working days | heat after: 3 | customer line: grudging | outcome: resolved","0:00 heat 3 (opener)
+0:48 heat 3 (stage,ack)
+2:15 heat 3 (stage,action)","[1:15pm] CUSTOMER:
+   Subject: Wrong item and my lost job
+Good day. You sent me an inkjet printer, model J110 instead of A4 laser printer, model P200. I needed it for a flyer printing job for a client and I lost the job. I want ₦250,000 as compensation. Kingsley Ogbu
+
+[1:16pm] AGENT (after 48s):
+   Subject: Re: Wrong item and my lost job
+Good day Kingsley. I am sorry that you received an inkjet printer, model J110 instead of the A4 laser printer, model P200. Can you tell me about the job and send proof of the loss, such as the client's message and your invoice? I note you are asking for ₦250,000.
+
+[1:17pm] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+I can send the client's message cancelling the job and my invoice. The job was a flyer printing job for a client.
+
+[1:17pm] AGENT (after 27s):
+   Subject: Re: Wrong item and my lost job
+I will arrange collection of the wrong item and send the correct A4 laser printer, model P200. I can give a goodwill credit up to ₦5,000, but I cannot decide a business loss claim. I have escalated your claim with a summary of the job, proof and amount to the Claims reviewer, who responds within 2 working days.
+
+[1:18pm] CUSTOMER:
+   Subject: Re: Wrong item and my lost job
+Fine. I will wait for the review within 2 working days. I expect a real answer. Kingsley Ogbu","customer: Kingsley Ogbu
+item: A4 laser printer, model P200
+itemDelivered: an inkjet printer, model J110
+price: ₦145,000
+job: a flyer printing job for a client
+demand: ₦250,000
+orderNo: TRV62011",completed,no,"Wrong item delivered, customer claims lost job income.",Ordered item differs from delivered. Claim above agent limit.,Order checked. Loss and amount unverified until proof arrives.,Arranged correction. Escalated to Claims reviewer. Agent cannot decide business loss.,Customer will send proof and wait for review.,Claims reviewer to review claim.,"Claims reviewer, 2 working days.","Escalated to Claims reviewer (Titilayo Ogunleye) with summary of job, proof and amount."
+36d1e68b9364-t1-03103c,Ifeanyi Obi,ifeanyi.obi@example.test,1,1,open,"Mon, 26 Oct 2026, 1:54pm WAT",,0,,,A,Live chat,Chioma Okafor,open,2,0,1,,"Reply 1: acknowledgement, action_with_fact | heat after: 2 | customer line: heat2a","0:00 heat 3 (opener)
+0:00 heat 2 (stage,ack,action)","[1:54pm] CUSTOMER:
+You promised my Ankara aso ebi set yesterday. It did not come. I have wasted the whole day waiting. I want my money back.
+
+[1:54pm] AGENT (after 0s):
+I am sorry about this. I am checking the order for you now.
+
+[1:54pm] CUSTOMER:
+Alright. But I need this for my sister's naming ceremony on Saturday. I need to know what is going on.","customer: Chioma Okafor
+item: Ankara aso ebi set
+orderNo: TRV48213
+amount: ₦24,500
+event: my sister's naming ceremony on Saturday
+ordered: 6 days ago
+city: Lagos
+lastScan: 3 days ago at the Ikeja hub",locked,no,,,,,,,,
+36d1e68b9364-t1-03103c,Ifeanyi Obi,ifeanyi.obi@example.test,1,1,open,"Mon, 26 Oct 2026, 1:54pm WAT",,0,,,B,Email,Adaobi Nwankwo,open,4,0,0,,,,,"customer: Adaobi Nwankwo
+item: wireless earbuds
+orderNo: TRV55120
+amount: ₦18,500
+delivered: 2 days ago
+fault: stopped charging after one day",locked,no,,,,,,,,
+36d1e68b9364-t1-03103c,Ifeanyi Obi,ifeanyi.obi@example.test,1,1,open,"Mon, 26 Oct 2026, 1:54pm WAT",,0,,,C,Live chat,Kelechi Onuoha,not reached,3,0,0,,,,,"customer: Kelechi Onuoha
+orderNo: TRV70125
+amount: ₦32,000
+chargeTime: 1:02pm today",locked,no,,,,,,,,
+36d1e68b9364-t1-03103c,Ifeanyi Obi,ifeanyi.obi@example.test,1,1,open,"Mon, 26 Oct 2026, 1:54pm WAT",,0,,,D,Email,Kingsley Ogbu,not reached,3,0,0,,,,,"customer: Kingsley Ogbu
+item: A4 laser printer, model P200
+itemDelivered: an inkjet printer, model J110
+price: ₦145,000
+job: a flyer printing job for a client
+demand: ₦250,000
+orderNo: TRV62011",locked,no,,,,,,,,

@@ -1,0 +1,310 @@
+{
+  "id": "36d1e68b9364-t1-03103c",
+  "learnerName": "Ifeanyi Obi",
+  "learnerEmail": "ifeanyi.obi@example.test",
+  "trialNo": 1,
+  "factSet": 1,
+  "status": "open",
+  "version": 5,
+  "createdAt": 1793019276000,
+  "shift": {
+    "startedAt": 1793019276000,
+    "timezone": "Africa/Lagos",
+    "dateText": "Mon, 26 Oct 2026",
+    "timeText": "1:54 PM WAT"
+  },
+  "started": true,
+  "cases": {
+    "A": {
+      "id": "A",
+      "channel": "chat",
+      "status": "open",
+      "openAt": null,
+      "startedAt": 1793019276000,
+      "closedAt": null,
+      "outcome": null,
+      "heat": 2,
+      "heatHistory": [
+        {
+          "at": 1793019276000,
+          "heat": 3,
+          "reason": "opener"
+        },
+        {
+          "at": 1793019276000,
+          "heat": 2,
+          "reason": "stage,ack,action"
+        }
+      ],
+      "messages": [
+        {
+          "id": "A-m1",
+          "from": "customer",
+          "at": 1793019276000,
+          "text": "You promised my Ankara aso ebi set yesterday. It did not come. I have wasted the whole day waiting. I want my money back.",
+          "kind": "opener",
+          "subject": null,
+          "lineId": "opener"
+        },
+        {
+          "id": "A-m2",
+          "from": "agent",
+          "at": 1793019276000,
+          "text": "I am sorry about this. I am checking the order for you now.",
+          "subject": null,
+          "latencyMs": 0,
+          "staleView": false
+        },
+        {
+          "id": "A-m3",
+          "from": "customer",
+          "at": 1793019279000,
+          "text": "Alright. But I need this for my sister's naming ceremony on Saturday. I need to know what is going on.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "heat2a"
+        }
+      ],
+      "customerTurns": 2,
+      "replies": 1,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": {
+        "openedAt": 1793019279000,
+        "deadline": 1793019369000,
+        "extended": false,
+        "firstTypedAt": null
+      },
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": 1793019276000
+      },
+      "acknowledged": true,
+      "signals": [
+        {
+          "reply": 1,
+          "at": 1793019276000,
+          "signals": [
+            "acknowledgement",
+            "action_with_fact"
+          ],
+          "heatAfter": 2,
+          "time": null,
+          "owner": [],
+          "customerLine": "heat2a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        }
+      ],
+      "flags": [],
+      "used": [
+        "heat2a"
+      ],
+      "answered": [],
+      "mem": {
+        "checked": true,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "B": {
+      "id": "B",
+      "channel": "email",
+      "status": "scheduled",
+      "openAt": 1793019336000,
+      "startedAt": null,
+      "closedAt": null,
+      "outcome": null,
+      "heat": 4,
+      "heatHistory": [],
+      "messages": [],
+      "customerTurns": 0,
+      "replies": 0,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": null
+      },
+      "acknowledged": false,
+      "signals": [],
+      "flags": [],
+      "used": [],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "C": {
+      "id": "C",
+      "channel": "chat",
+      "status": "not_started",
+      "openAt": null,
+      "startedAt": null,
+      "closedAt": null,
+      "outcome": null,
+      "heat": 3,
+      "heatHistory": [],
+      "messages": [],
+      "customerTurns": 0,
+      "replies": 0,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": null
+      },
+      "acknowledged": false,
+      "signals": [],
+      "flags": [],
+      "used": [],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "D": {
+      "id": "D",
+      "channel": "email",
+      "status": "not_started",
+      "openAt": null,
+      "startedAt": null,
+      "closedAt": null,
+      "outcome": null,
+      "heat": 3,
+      "heatHistory": [],
+      "messages": [],
+      "customerTurns": 0,
+      "replies": 0,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": null
+      },
+      "acknowledged": false,
+      "signals": [],
+      "flags": [],
+      "used": [],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    }
+  },
+  "notes": {
+    "A": {
+      "status": "locked",
+      "openedAt": null,
+      "deadline": null,
+      "completedAt": null,
+      "expired": false,
+      "fields": {},
+      "seq": 0
+    },
+    "B": {
+      "status": "locked",
+      "openedAt": null,
+      "deadline": null,
+      "completedAt": null,
+      "expired": false,
+      "fields": {},
+      "seq": 0
+    },
+    "C": {
+      "status": "locked",
+      "openedAt": null,
+      "deadline": null,
+      "completedAt": null,
+      "expired": false,
+      "fields": {},
+      "seq": 0
+    },
+    "D": {
+      "status": "locked",
+      "openedAt": null,
+      "deadline": null,
+      "completedAt": null,
+      "expired": false,
+      "fields": {},
+      "seq": 0
+    }
+  },
+  "resetCount": 0,
+  "resetAt": null,
+  "offlineGaps": [],
+  "lastSeenAt": 1793019282000,
+  "processed": [
+    "o1"
+  ],
+  "submittedAt": null
+}

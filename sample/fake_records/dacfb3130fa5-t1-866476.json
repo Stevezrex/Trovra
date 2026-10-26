@@ -1,0 +1,785 @@
+{
+  "id": "dacfb3130fa5-t1-866476",
+  "learnerName": "Halima Yusuf",
+  "learnerEmail": "halima.yusuf@example.test",
+  "trialNo": 1,
+  "factSet": 1,
+  "status": "submitted",
+  "version": 94,
+  "createdAt": 1793015452000,
+  "shift": {
+    "startedAt": 1793015452000,
+    "timezone": "Africa/Lagos",
+    "dateText": "Mon, 26 Oct 2026",
+    "timeText": "12:50 PM WAT"
+  },
+  "started": true,
+  "cases": {
+    "A": {
+      "id": "A",
+      "channel": "chat",
+      "status": "closed",
+      "openAt": null,
+      "startedAt": 1793015452000,
+      "closedAt": 1793016832000,
+      "outcome": "unresolved",
+      "heat": 5,
+      "heatHistory": [
+        {
+          "at": 1793015452000,
+          "heat": 3,
+          "reason": "opener"
+        },
+        {
+          "at": 1793016652000,
+          "heat": 4,
+          "reason": "missed_window"
+        },
+        {
+          "at": 1793016742000,
+          "heat": 5,
+          "reason": "missed_window"
+        },
+        {
+          "at": 1793016832000,
+          "heat": 5,
+          "reason": "missed_window"
+        }
+      ],
+      "messages": [
+        {
+          "id": "A-m1",
+          "from": "customer",
+          "at": 1793015452000,
+          "text": "You promised my Ankara aso ebi set yesterday. It did not come. I have wasted the whole day waiting. I want my money back.",
+          "kind": "opener",
+          "subject": null,
+          "lineId": "opener"
+        },
+        {
+          "id": "A-m2",
+          "from": "customer",
+          "at": 1793016652000,
+          "text": "Hello? Are you still there?",
+          "kind": "chaser",
+          "subject": null,
+          "lineId": "chaser1"
+        },
+        {
+          "id": "A-m3",
+          "from": "customer",
+          "at": 1793016742000,
+          "text": "I am still waiting. Please reply.",
+          "kind": "chaser",
+          "subject": null,
+          "lineId": "chaser2"
+        },
+        {
+          "id": "A-m4",
+          "from": "customer",
+          "at": 1793016832000,
+          "text": "I have had enough. I am leaving this chat and I will take this up elsewhere.",
+          "kind": "close",
+          "subject": null,
+          "lineId": "close"
+        }
+      ],
+      "customerTurns": 2,
+      "replies": 0,
+      "missedInRow": 3,
+      "totalMissed": 3,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": null
+      },
+      "acknowledged": false,
+      "signals": [],
+      "flags": [
+        {
+          "at": 1793016652000,
+          "flag": "offline_gap",
+          "detail": "1200s"
+        },
+        {
+          "at": 1793016652000,
+          "flag": "missed_window",
+          "detail": "offline"
+        },
+        {
+          "at": 1793016742000,
+          "flag": "missed_window",
+          "detail": null
+        },
+        {
+          "at": 1793016832000,
+          "flag": "missed_window",
+          "detail": null
+        }
+      ],
+      "used": [],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "B": {
+      "id": "B",
+      "channel": "email",
+      "status": "closed",
+      "openAt": null,
+      "startedAt": 1793016892000,
+      "closedAt": 1793017079000,
+      "outcome": "resolved",
+      "heat": 3,
+      "heatHistory": [
+        {
+          "at": 1793016892000,
+          "heat": 4,
+          "reason": "opener"
+        },
+        {
+          "at": 1793016919000,
+          "heat": 4,
+          "reason": "stage,ack"
+        },
+        {
+          "at": 1793017019000,
+          "heat": 3,
+          "reason": "stage,ack,action"
+        }
+      ],
+      "messages": [
+        {
+          "id": "B-m1",
+          "from": "customer",
+          "at": 1793016892000,
+          "text": "Good day. I bought wireless earbuds for ₦18,500 and it stopped charging after one day. I wrote to your chat and the person told me to read your policy. I did not ask for a policy. I asked for help. Please fix this. Adaobi Nwankwo",
+          "kind": "opener",
+          "subject": "Faulty wireless earbuds",
+          "lineId": "opener"
+        },
+        {
+          "id": "B-m2",
+          "from": "agent",
+          "at": 1793016919000,
+          "text": "Good day Adaobi. I am sorry that you were told to read the policy earlier and that you had to write twice. Your wireless earbuds stopped charging after one day, so I am treating this as a fault and not a change of mind. Please send one photo or a short video showing the fault.",
+          "subject": "Re: Faulty wireless earbuds",
+          "latencyMs": 27000,
+          "staleView": false
+        },
+        {
+          "id": "B-m3",
+          "from": "customer",
+          "at": 1793016979000,
+          "text": "I have attached a short video that shows the fault.",
+          "kind": "reply",
+          "subject": "Re: Faulty wireless earbuds",
+          "lineId": "answer:evidence"
+        },
+        {
+          "id": "B-m4",
+          "from": "agent",
+          "at": 1793017019000,
+          "text": "Thank you for the video. I am sorry again for the wait. I have checked order TRV55120: it was delivered 2 days ago, inside the 7 day window. I will arrange a replacement, which ships within 2 working days of approval, or a refund paid within 3 working days if you prefer. I will email you by 4pm today with your choice confirmed.",
+          "subject": "Re: Faulty wireless earbuds",
+          "latencyMs": 40000,
+          "staleView": false
+        },
+        {
+          "id": "B-m5",
+          "from": "customer",
+          "at": 1793017079000,
+          "text": "Okay. I will wait until 4pm. I hope this is not another delay. Adaobi Nwankwo",
+          "kind": "accept",
+          "subject": "Re: Faulty wireless earbuds",
+          "lineId": "grudging"
+        }
+      ],
+      "customerTurns": 3,
+      "replies": 2,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": 1793017019000
+      },
+      "acknowledged": true,
+      "signals": [
+        {
+          "reply": 1,
+          "at": 1793016919000,
+          "signals": [
+            "acknowledgement_with_impact",
+            "question",
+            "time_only",
+            "evidence_requested",
+            "treated_as_defect",
+            "recognised_earlier_poor_contact"
+          ],
+          "heatAfter": 4,
+          "time": "after one day",
+          "owner": [],
+          "customerLine": "answer:evidence",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 2,
+          "at": 1793017019000,
+          "signals": [
+            "acknowledgement_with_impact",
+            "action_with_fact",
+            "question",
+            "options",
+            "next_step_action_owner_time",
+            "evidence_requested",
+            "remedy_with_timeline"
+          ],
+          "heatAfter": 3,
+          "time": "4pm",
+          "owner": [],
+          "customerLine": "grudging",
+          "outcome": "resolved",
+          "boundaryAfterInsult": false
+        }
+      ],
+      "flags": [],
+      "used": [],
+      "answered": [
+        "evidence"
+      ],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": true,
+        "evidenceReceived": true,
+        "defect": true,
+        "remedy": true,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "C": {
+      "id": "C",
+      "channel": "chat",
+      "status": "closed",
+      "openAt": null,
+      "startedAt": 1793016835000,
+      "closedAt": 1793016997000,
+      "outcome": "transferred",
+      "heat": 2,
+      "heatHistory": [
+        {
+          "at": 1793016835000,
+          "heat": 3,
+          "reason": "opener"
+        },
+        {
+          "at": 1793016861000,
+          "heat": 2,
+          "reason": "stage,ack,action"
+        },
+        {
+          "at": 1793016890000,
+          "heat": 2,
+          "reason": "stage,boundary"
+        },
+        {
+          "at": 1793016944000,
+          "heat": 2,
+          "reason": "stage,action"
+        },
+        {
+          "at": 1793016994000,
+          "heat": 2,
+          "reason": "stage,ack"
+        }
+      ],
+      "messages": [
+        {
+          "id": "C-m1",
+          "from": "customer",
+          "at": 1793016835000,
+          "text": "I was charged twice for order TRV70125. ₦32,000 was taken two times. Fix it now.",
+          "kind": "opener",
+          "subject": null,
+          "lineId": "opener"
+        },
+        {
+          "id": "C-m2",
+          "from": "agent",
+          "at": 1793016861000,
+          "text": "I am sorry about the double charge on order TRV70125. I can see both debits of ₦32,000 on the statement. Can you confirm what time it happened?",
+          "subject": null,
+          "latencyMs": 26000,
+          "staleView": false
+        },
+        {
+          "id": "C-m3",
+          "from": "customer",
+          "at": 1793016864000,
+          "text": "Are you stupid? I said two debits of ₦32,000. Read what I wrote.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "insult2a"
+        },
+        {
+          "id": "C-m4",
+          "from": "agent",
+          "at": 1793016890000,
+          "text": "I want to help you, but I cannot continue if the insults continue. Please keep the conversation respectful so that I can sort out your money.",
+          "subject": null,
+          "latencyMs": 26000,
+          "staleView": false
+        },
+        {
+          "id": "C-m5",
+          "from": "customer",
+          "at": 1793016893000,
+          "text": "Fine. Just check the transaction.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "afterBoundarya"
+        },
+        {
+          "id": "C-m6",
+          "from": "agent",
+          "at": 1793016944000,
+          "text": "I am checking both debits of ₦32,000 now and I will keep working on it for you.",
+          "subject": null,
+          "latencyMs": 51000,
+          "staleView": false
+        },
+        {
+          "id": "C-m7",
+          "from": "customer",
+          "at": 1793016947000,
+          "text": "You are incompetent. If this is not fixed I will post your name online and everyone will know how useless you are.",
+          "kind": "reply",
+          "subject": null,
+          "lineId": "relapse4b"
+        },
+        {
+          "id": "C-m8",
+          "from": "agent",
+          "at": 1793016994000,
+          "text": "I am sorry. I will pause this chat and transfer you to the shift supervisor, Segun. I have recorded your words. Payments will confirm the two debits of ₦32,000 within 1 working day, and the supervisor will call you by 2pm today.",
+          "subject": null,
+          "latencyMs": 47000,
+          "staleView": false
+        },
+        {
+          "id": "C-m9",
+          "from": "customer",
+          "at": 1793016997000,
+          "text": "Fine. I will wait for the supervisor's call by 2pm. Please make sure my money is sorted.",
+          "kind": "accept",
+          "subject": null,
+          "lineId": "transferAccept"
+        }
+      ],
+      "customerTurns": 5,
+      "replies": 4,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": 1793016994000
+      },
+      "acknowledged": true,
+      "signals": [
+        {
+          "reply": 1,
+          "at": 1793016861000,
+          "signals": [
+            "acknowledgement_with_impact",
+            "action_with_fact",
+            "question",
+            "verified_debits"
+          ],
+          "heatAfter": 2,
+          "time": null,
+          "owner": [],
+          "customerLine": "insult2a",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 2,
+          "at": 1793016890000,
+          "signals": [
+            "limit_stated",
+            "boundary"
+          ],
+          "heatAfter": 2,
+          "time": null,
+          "owner": [],
+          "customerLine": "afterBoundarya",
+          "outcome": null,
+          "boundaryAfterInsult": true
+        },
+        {
+          "reply": 3,
+          "at": 1793016944000,
+          "signals": [
+            "action_with_fact",
+            "verified_debits"
+          ],
+          "heatAfter": 2,
+          "time": null,
+          "owner": [],
+          "customerLine": "relapse4b",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 4,
+          "at": 1793016994000,
+          "signals": [
+            "acknowledgement_with_impact",
+            "next_step_action_owner_time",
+            "transfer",
+            "payments_next_step"
+          ],
+          "heatAfter": 2,
+          "time": "2pm",
+          "owner": [
+            "payments",
+            "supervisor"
+          ],
+          "customerLine": "transferAccept",
+          "outcome": "transferred",
+          "boundaryAfterInsult": false
+        }
+      ],
+      "flags": [],
+      "used": [
+        "afterBoundarya"
+      ],
+      "answered": [],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": true,
+        "relapseSeen": true,
+        "boundaryPending": false,
+        "boundaryAt": 2,
+        "verified": true,
+        "limit": false,
+        "correction": false,
+        "escalated": false,
+        "clarify": false
+      }
+    },
+    "D": {
+      "id": "D",
+      "channel": "email",
+      "status": "closed",
+      "openAt": null,
+      "startedAt": 1793016921000,
+      "closedAt": 1793017116000,
+      "outcome": "resolved",
+      "heat": 3,
+      "heatHistory": [
+        {
+          "at": 1793016921000,
+          "heat": 3,
+          "reason": "opener"
+        },
+        {
+          "at": 1793016969000,
+          "heat": 3,
+          "reason": "stage,ack"
+        },
+        {
+          "at": 1793017056000,
+          "heat": 3,
+          "reason": "stage,action"
+        }
+      ],
+      "messages": [
+        {
+          "id": "D-m1",
+          "from": "customer",
+          "at": 1793016921000,
+          "text": "Good day. You sent me an inkjet printer, model J110 instead of A4 laser printer, model P200. I needed it for a flyer printing job for a client and I lost the job. I want ₦250,000 as compensation. Kingsley Ogbu",
+          "kind": "opener",
+          "subject": "Wrong item and my lost job",
+          "lineId": "opener"
+        },
+        {
+          "id": "D-m2",
+          "from": "agent",
+          "at": 1793016969000,
+          "text": "Good day Kingsley. I am sorry that you received an inkjet printer, model J110 instead of the A4 laser printer, model P200. Can you tell me about the job and send proof of the loss, such as the client's message and your invoice? I note you are asking for ₦250,000.",
+          "subject": "Re: Wrong item and my lost job",
+          "latencyMs": 48000,
+          "staleView": false
+        },
+        {
+          "id": "D-m3",
+          "from": "customer",
+          "at": 1793017029000,
+          "text": "I can send the client's message cancelling the job and my invoice. The job was a flyer printing job for a client.",
+          "kind": "reply",
+          "subject": "Re: Wrong item and my lost job",
+          "lineId": "answer:proof+answer:job"
+        },
+        {
+          "id": "D-m4",
+          "from": "agent",
+          "at": 1793017056000,
+          "text": "I will arrange collection of the wrong item and send the correct A4 laser printer, model P200. I can give a goodwill credit up to ₦5,000, but I cannot decide a business loss claim. I have escalated your claim with a summary of the job, proof and amount to the Claims reviewer, who responds within 2 working days.",
+          "subject": "Re: Wrong item and my lost job",
+          "latencyMs": 27000,
+          "staleView": false
+        },
+        {
+          "id": "D-m5",
+          "from": "customer",
+          "at": 1793017116000,
+          "text": "Fine. I will wait for the review within 2 working days. I expect a real answer. Kingsley Ogbu",
+          "kind": "accept",
+          "subject": "Re: Wrong item and my lost job",
+          "lineId": "grudging"
+        }
+      ],
+      "customerTurns": 3,
+      "replies": 2,
+      "missedInRow": 0,
+      "totalMissed": 0,
+      "window": null,
+      "pending": null,
+      "draft": {
+        "text": "",
+        "seq": 0,
+        "savedAt": 1793017056000
+      },
+      "acknowledged": true,
+      "signals": [
+        {
+          "reply": 1,
+          "at": 1793016969000,
+          "signals": [
+            "acknowledgement_with_impact",
+            "question",
+            "clarified_loss_or_amount"
+          ],
+          "heatAfter": 3,
+          "time": null,
+          "owner": [],
+          "customerLine": "answer:proof+answer:job",
+          "outcome": null,
+          "boundaryAfterInsult": false
+        },
+        {
+          "reply": 2,
+          "at": 1793017056000,
+          "signals": [
+            "action_with_fact",
+            "question",
+            "options",
+            "limit_stated",
+            "next_step_action_owner_time",
+            "clarified_loss_or_amount",
+            "authority_limit_stated",
+            "correction_arranged",
+            "escalated_to_claims"
+          ],
+          "heatAfter": 3,
+          "time": "within 2 working days",
+          "owner": [
+            "claims"
+          ],
+          "customerLine": "grudging",
+          "outcome": "resolved",
+          "boundaryAfterInsult": false
+        }
+      ],
+      "flags": [],
+      "used": [],
+      "answered": [
+        "proof",
+        "job"
+      ],
+      "mem": {
+        "checked": false,
+        "tracePlus": false,
+        "refundRoute": false,
+        "evidenceRequested": false,
+        "evidenceReceived": false,
+        "defect": false,
+        "remedy": false,
+        "insultSeen": false,
+        "relapseSeen": false,
+        "boundaryPending": false,
+        "boundaryAt": null,
+        "verified": false,
+        "limit": true,
+        "correction": true,
+        "escalated": true,
+        "clarify": true
+      }
+    }
+  },
+  "notes": {
+    "A": {
+      "status": "done",
+      "openedAt": 1793017116000,
+      "deadline": 1793017296000,
+      "completedAt": 1793017206000,
+      "expired": false,
+      "fields": {
+        "1": "Customer reports order delayed past promised date and wants a refund.",
+        "2": "Promised yesterday, tracking At hub, last scan 3 days ago, no proof of delivery.",
+        "3": "Checked order and tracking. Delivery date unconfirmed.",
+        "4": "Raised delivery trace with Logistics, explained refund route. Agent decision.",
+        "5": "Customer agreed to wait until 3pm.",
+        "6": "Update customer on trace.",
+        "7": "Agent, 3pm today.",
+        "8": "None"
+      },
+      "seq": 3585748035533,
+      "prefill": {
+        "caseId": "A",
+        "channel": "Live chat",
+        "caseRef": "Case A · TRV48213",
+        "time": "1:18 PM WAT"
+      },
+      "savedAt": 1793017206000
+    },
+    "B": {
+      "status": "done",
+      "openedAt": 1793017206000,
+      "deadline": 1793017386000,
+      "completedAt": 1793017296000,
+      "expired": false,
+      "fields": {
+        "1": "Faulty item after earlier policy-only reply. Customer wants fix.",
+        "2": "Delivered inside 7 days, fault reported, video supplied.",
+        "3": "Checked order and delivery date. Fault confirmed by video.",
+        "4": "Offered replacement or refund within policy timelines.",
+        "5": "Customer accepted and will wait.",
+        "6": "Confirm choice by email.",
+        "7": "Agent, 4pm today.",
+        "8": "None"
+      },
+      "seq": 3585748125578,
+      "prefill": {
+        "caseId": "B",
+        "channel": "Email",
+        "caseRef": "Case B · TRV55120",
+        "time": "1:20 PM WAT"
+      },
+      "savedAt": 1793017296000
+    },
+    "C": {
+      "status": "done",
+      "openedAt": 1793017296000,
+      "deadline": 1793017476000,
+      "completedAt": 1793017386000,
+      "expired": false,
+      "fields": {
+        "1": "Duplicate charge on one order.",
+        "2": "Two completed debits, same amount and time, wallet card.",
+        "3": "Verified both debits on the record.",
+        "4": "Boundary stated, then transferred to supervisor with Payments step.",
+        "5": "Customer accepted supervisor call.",
+        "6": "Supervisor to call; Payments to confirm.",
+        "7": "Segun, 2pm today. Payments, 1 working day.",
+        "8": "Customer said \"Are you stupid\" and later relapsed. I stated a boundary naming the insults and conditions, then transferred."
+      },
+      "seq": 3585748215616,
+      "prefill": {
+        "caseId": "C",
+        "channel": "Live chat",
+        "caseRef": "Case C · TRV70125",
+        "time": "1:21 PM WAT"
+      },
+      "savedAt": 1793017386000
+    },
+    "D": {
+      "status": "done",
+      "openedAt": 1793017386000,
+      "deadline": 1793017566000,
+      "completedAt": 1793017476000,
+      "expired": false,
+      "fields": {
+        "1": "Wrong item delivered, customer claims lost job income.",
+        "2": "Ordered item differs from delivered. Claim above agent limit.",
+        "3": "Order checked. Loss and amount unverified until proof arrives.",
+        "4": "Arranged correction. Escalated to Claims reviewer. Agent cannot decide business loss.",
+        "5": "Customer will send proof and wait for review.",
+        "6": "Claims reviewer to review claim.",
+        "7": "Claims reviewer, 2 working days.",
+        "8": "Escalated to Claims reviewer (Titilayo Ogunleye) with summary of job, proof and amount."
+      },
+      "seq": 3585748305651,
+      "prefill": {
+        "caseId": "D",
+        "channel": "Email",
+        "caseRef": "Case D · TRV62011",
+        "time": "1:23 PM WAT"
+      },
+      "savedAt": 1793017476000
+    }
+  },
+  "resetCount": 0,
+  "resetAt": null,
+  "offlineGaps": [
+    {
+      "from": 1793015452000,
+      "to": 1793016652000,
+      "seconds": 1200
+    }
+  ],
+  "lastSeenAt": 1793017476000,
+  "processed": [
+    "C-0",
+    "C-1",
+    "B-0",
+    "C-2",
+    "D-0",
+    "C-3",
+    "B-1",
+    "D-1"
+  ],
+  "submittedAt": 1793017476000
+}

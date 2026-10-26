@@ -1,0 +1,20 @@
+{
+  "name": "trovra-support-desk-simulation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Week 7 Trovra support desk simulation",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "fake": "node scripts/make_fake_records.mjs",
+    "merge": "node merge.mjs",
+    "build": "node scripts/copy_fonts.mjs",
+    "dev": "node scripts/dev_server.mjs",
+    "export": "node scripts/export_trials.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0",
+    "@fontsource/plus-jakarta-sans": "^5.1.0",
+    "@fontsource/inter": "^5.1.0"
+  }
+}
