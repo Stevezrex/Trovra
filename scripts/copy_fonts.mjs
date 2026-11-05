@@ -13,8 +13,10 @@ const wanted = [
 for (const [pkg, files] of wanted) {
   for (const f of files) {
     const src = join(root, 'node_modules', pkg, 'files', f);
-    if (!existsSync(src)) { console.error(`Missing ${src}. Run npm install first.`); process.exit(1); }
-    copyFileSync(src, join(out, f));
+    const dest = join(out, f);
+    if (existsSync(src)) { copyFileSync(src, dest); continue; }
+    if (existsSync(dest)) continue; // already bundled in public/fonts
+    console.error(`Missing ${src}. Run npm install first.`); process.exit(1);
   }
 }
-console.log('Fonts copied to public/fonts');
+console.log('Fonts ready in public/fonts');

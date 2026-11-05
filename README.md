@@ -59,7 +59,13 @@ The local preview forgets everything when you stop it.
 
 All timings live in `netlify/functions/config.mjs`: chat 90 s (extends to 120 s if typing has started), email 3 min (+30 s), note 3 min, next email 60 s after the learner's reply, offline threshold, three missed windows, three trials, one reset. The brand name is set there too. Change a value, commit, redeploy. The plan asks you to confirm the timings in a phone-and-laptop pilot.
 
-## Exporting records and marking
+## Downloading all trials (easiest way)
+
+Open `/instructor` on the site (for example `https://week7-assessment.netlify.app/instructor`), type the instructor password and select **Download all trials**. You get one CSV file with every trial so far, one row per trial and case, in the same format as `merge.mjs`. It opens in Excel or Google Sheets, and you can also feed it to `build_workbook.py`.
+
+One-time setup: in the Netlify dashboard, open the project and go to Project configuration, then Environment variables. Add a variable named `INSTRUCTOR_PASSWORD` with a password of your choice, mark it as secret, save, then redeploy. Until it is set, the page says the password has not been set up.
+
+## Exporting records and marking (command line)
 
 1. Create a personal access token in your Netlify user settings. Find the site ID under Site configuration.
 2. Export:

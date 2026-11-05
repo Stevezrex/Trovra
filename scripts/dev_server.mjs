@@ -30,7 +30,8 @@ http.createServer(async (req, res) => {
     res.end(Buffer.from(await r.arrayBuffer()));
     return;
   }
-  const file = url.pathname === '/' ? '/index.html' : url.pathname;
+  let file = url.pathname === '/' ? '/index.html' : url.pathname;
+  if (!extname(file)) file += '.html';
   try {
     const data = await readFile(join(root, file));
     res.writeHead(200, { 'content-type': types[extname(file)] || 'application/octet-stream' });
