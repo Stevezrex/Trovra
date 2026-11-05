@@ -10,6 +10,7 @@ import {
   newTrial, startShift, resetTrial, advance, saveDraft, submitReply,
   openNote, saveNote, submitNote, allDone, fillText, factsFor
 } from './engine.mjs';
+import { flatten, toCsv } from '../../merge.mjs';
 
 const json = (status, body) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });
 const fail = (status, error, message) => json(status, { error, message });
@@ -124,7 +125,9 @@ function referenceOf(trial, now) {
 
 // ---------- handler ----------
 
-export function createHandler({ getStore, now = () => Date.now() }) {
+const envPassword = () => (globalThis.Netlify?.env?.get('INSTRUCTOR_PASSWORD') ?? process.env.INSTRUCTOR_PASSWORD ?? '').trim();
+
+export function createHandler({ getStore, now = () => Date.now(), instructorPassword = envPassword }) {
   let storePromise = null;
   const store = () => (storePromise ||= getStore());
 
@@ -184,6 +187,39 @@ export function createHandler({ getStore, now = () => Date.now() }) {
       }
 
       if (method === 'GET' && path === '/ping') return json(200, { ok: true });
+
+      // ---- instructor: download every trial as one spreadsheet ----
+      if (method === 'POST' && path === '/instructor/export') {
+        const expected = instructorPassword();
+        if (!expected) return fail(503, 'not_set_up', 'The instructor password has not been set up yet.');
+        const b = await body(req);
+        if (!safeEqual(String(b.password || ''), expected)) {
+          await new Promise((r) => setTimeout(r, 800));
+          return fail(401, 'wrong_password', 'That password is not right. Try again.');
+        }
+        const st = await store();
+        const ids = await st.listTrialIds();
+        const trials = (await Promise.all(ids.map((id) => st.getTrial(id)))).filter(Boolean);
+        trials.sort((a, c) => String(a.learnerEmail).localeCompare(String(c.learnerEmail)) || a.trialNo - c.trialNo);
+        const rows = [];
+        let skipped = 0;
+        for (const tr of trials) {
+          try { rows.push(...flatten(tr)); } catch (e) { skipped++; console.error('export skipped trial', tr.id, e); }
+        }
+        const learners = new Set(trials.map((tr) => tr.learnerEmail)).size;
+        const stamp = new Date(t).toISOString().slice(0, 10);
+        return new Response('\uFEFF' + toCsv(rows), {
+          status: 200,
+          headers: {
+            'content-type': 'text/csv; charset=utf-8',
+            'content-disposition': `attachment; filename="trovra-week7-trials-${stamp}.csv"`,
+            'cache-control': 'no-store',
+            'x-trial-count': String(trials.length - skipped),
+            'x-learner-count': String(learners),
+            'access-control-expose-headers': 'x-trial-count, x-learner-count, content-disposition'
+          }
+        });
+      }
 
       // ---- everything else needs a session ----
       return await authed(req, async ({ st, key, learner }) => {

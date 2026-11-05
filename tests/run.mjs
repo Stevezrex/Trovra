@@ -479,5 +479,24 @@ await test('merge keeps learner text exactly, including quotes, commas and blank
   assert.ok(out[1][COLUMNS.indexOf('transcript')].includes(tricky));
 });
 
+await test('instructor export: password required, returns every trial as one CSV', async () => {
+  const { w } = await setup();
+  const l2 = await w.login('Bola Ade', 'bola@example.com');
+  await w.call('POST', '/trial/open', {}, l2.body.token);
+  const st = await w.storeP;
+  const { createHandler } = await import('../netlify/functions/api.mjs');
+  const mk = (pw) => createHandler({ getStore: () => st, now: () => w.clock.t, instructorPassword: () => pw });
+  const post = (h, password) => h(new Request('http://x/api/instructor/export', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ password }) }));
+  assert.equal((await post(mk(''), 'x')).status, 503);
+  assert.equal((await post(mk('s3cret-pass'), 'wrong')).status, 401);
+  const ok = await post(mk('s3cret-pass'), 's3cret-pass');
+  assert.equal(ok.status, 200);
+  assert.equal(ok.headers.get('x-trial-count'), '2');
+  assert.equal(ok.headers.get('x-learner-count'), '2');
+  const text = await ok.text();
+  assert.ok(text.includes('ada@example.com') && text.includes('bola@example.com'));
+  assert.ok(text.replace(/^\uFEFF/, '').startsWith('trial_id,'));
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 process.exit(failed ? 1 : 0);

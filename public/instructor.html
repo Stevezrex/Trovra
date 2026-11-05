@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0E1729">
+  <title>Instructor downloads</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .ins { min-height: 100%; display: grid; place-items: center; padding: 24px; }
+    .ins-card { background: var(--paper); border-radius: 16px; padding: 32px; width: 100%; max-width: 460px; box-shadow: 0 20px 50px rgba(0,0,0,.35); }
+    .ins-card h1 { font-size: 1.6rem; color: var(--navy); margin-bottom: 6px; }
+    .ins-card p { color: var(--ink-2); margin: 0 0 20px; }
+    .ins-card label { display: block; font-weight: 600; margin-bottom: 6px; }
+    .ins-card input { width: 100%; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 10px; background: var(--card); margin-bottom: 16px; }
+    .ins-btn { width: 100%; padding: 14px; border: 0; border-radius: 10px; background: var(--amber); color: var(--navy); font-weight: 700; font-size: 1.05rem; }
+    .ins-btn:hover { background: var(--amber-press); }
+    .ins-btn:disabled { opacity: .6; cursor: wait; }
+    .ins-msg { margin-top: 16px; padding: 12px 14px; border-radius: 10px; font-size: .95rem; }
+    .ins-msg.ok { background: #D6EADF; color: var(--ok); }
+    .ins-msg.err { background: #F6DEDA; color: var(--danger); }
+    .ins-tip { margin-top: 22px; font-size: .88rem; color: var(--ink-2); border-top: 1px solid var(--rule); padding-top: 16px; }
+  </style>
+</head>
+<body>
+  <main class="ins">
+    <form class="ins-card" id="f">
+      <h1>Download student trials</h1>
+      <p>Get every student's trials in one spreadsheet. It opens in Excel or Google Sheets.</p>
+      <label for="pw">Instructor password</label>
+      <input id="pw" type="password" autocomplete="current-password" required>
+      <button class="ins-btn" id="go" type="submit">Download all trials</button>
+      <div class="ins-msg" id="msg" role="status" hidden></div>
+      <div class="ins-tip">Each download includes every trial so far, new ones too. There's one row for each student and case. Keep the file private, because it has names, emails and answers.</div>
+    </form>
+  </main>
+  <script src="/instructor.js" type="module"></script>
+</body>
+</html>
